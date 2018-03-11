@@ -33,7 +33,21 @@ $$x(n)=to\hat{x}_a(t)\\
 平滑滤波->x_a(t877)$$
 ## 模拟信号的数字滤波
 $$x_a(nT)=\frac{1}{w\pi}\int X_a(j\Omega)e^{j\Omega nT}d\omega\\
-DTFT:x(n)=\frac{1}{\2\pi}\int
+DTFT:x(n)=\frac{1}{2\pi}\int
 X(e^{j\omega})=\frac{1}{t}\sum X_a(j\frac{\omega}{T}+j\frac{2\pi r}{T})\\
 X(e^{j\Omega})=\hat{X}_a(j\Omega)|_\Omega=\omega/T\\
 \hat{X}_a(s)=X(z)|_e^{sT}$$
+
+## DFT(离散时间)
+DFT而看作对有限长序列变换域分析的有线点离散抽样，而且有快速算法，FFT。理论基础是，只要在时域上将信号离散化($T$)，得到的频谱就是周期的($\Omega_s=\frac{2\pi}{T}$)，如果时域是周期的(${T_0}$)，那频谱还是离散的($\Omega_0=\frac{2\pi}{T_0}$)
+### 定义
+$$W_N=e^{-j\frac{2\pi}{N}}\\
+X(k)=DFT[x(n)]=\sum^{N-1}_{n=0}x(n)W_N^{nk},0\leq k\leq N-1\\
+x(n)=IDFT[X(k)]=\frac{1}{N}\sum_{k=0}^{N-1}X(k)W_N^{-nk},0\leq k\leq N-1\\
+N\to 变换区间长度,n\to 离散时间,k\to 离散频率$$
+## DFS(离散时间，离散频率)
+$$X(k)=DFS[x(n)]=\sum_{n=0}^{N-1}x(n)W_N^{nk}\\
+x(n)=IDFS[X(k)]=\frac{1}{N}\sum_{n=0}^{N-1}X(k)W_N^{-nk}$$
+
+## 作业
+第三章,离散傅里叶变换 2,3,5,6
