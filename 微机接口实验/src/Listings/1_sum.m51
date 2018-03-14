@@ -1,0 +1,81 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        03/14/2018  09:57:01  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\STARTUP.obj TO .\Objects\1_sum PRINT (.\Listings\1_sum.m51) RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\1_sum (STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0136H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\1_sum (STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        STARTUP
+  C:0135H         SYMBOL        COUNT
+  C:0119H         SYMBOL        LOOP
+  C:0100H         SYMBOL        START
+  D:00FFH         SYMBOL        WDTCN
+  C:0000H         LINE#         3
+  C:0100H         LINE#         6
+  C:0103H         LINE#         7
+  C:0106H         LINE#         8
+  C:0108H         LINE#         9
+  C:010AH         LINE#         10
+  C:010BH         LINE#         11
+  C:010DH         LINE#         12
+  C:010EH         LINE#         13
+  C:0110H         LINE#         14
+  C:0113H         LINE#         15
+  C:0114H         LINE#         16
+  C:0115H         LINE#         17
+  C:0116H         LINE#         18
+  C:0119H         LINE#         20
+  C:011BH         LINE#         21
+  C:011CH         LINE#         22
+  C:011DH         LINE#         23
+  C:011EH         LINE#         24
+  C:011FH         LINE#         25
+  C:0120H         LINE#         26
+  C:0121H         LINE#         27
+  C:0122H         LINE#         28
+  C:0123H         LINE#         29
+  C:0124H         LINE#         30
+  C:0125H         LINE#         31
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/14/2018  09:57:01  PAGE 2
+
+
+  C:0126H         LINE#         32
+  C:0127H         LINE#         33
+  C:0128H         LINE#         34
+  C:0129H         LINE#         35
+  C:012AH         LINE#         36
+  C:012BH         LINE#         37
+  C:012CH         LINE#         38
+  C:012DH         LINE#         39
+  C:012EH         LINE#         40
+  C:012FH         LINE#         41
+  C:0130H         LINE#         42
+  C:0131H         LINE#         43
+  C:0133H         LINE#         44
+  -------         ENDMOD        STARTUP
+
+Program Size: data=8.0 xdata=0 code=310
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

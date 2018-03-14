@@ -1,0 +1,3 @@
+".\Objects\STARTUP.obj" 
+TO ".\Objects\1_sum" 
+PRINT(".\Listings\1_sum.m51") RAMSIZE(256) 

@@ -1,0 +1,75 @@
+A51 MACRO ASSEMBLER  STARTUP                                                              03/14/2018 09:57:01 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02c
+OBJECT MODULE PLACED IN .\Objects\STARTUP.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE STARTUP.A51 SET(SMALL) DEBUG PRINT(.\Listings\STARTUP.lst) OBJECT(.\Obj
+                      ects\STARTUP.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+  00FF                 1     WDTCN DATA 0FFH
+0000                   2     ORG 0000H
+0000 2100              3     AJMP START
+0100                   4     ORG 0100H
+0100                   5     START:
+0100 75FFDE            6     MOV WDTCN, #0DEH
+0103 75FFAD            7     MOV WDTCN, #0ADH
+0106 7820              8     MOV R0, #20H
+0108 7600              9     MOV @R0, #00H
+010A 08               10     INC R0
+010B 7600             11     MOV @R0, #00H
+010D 08               12     INC R0
+010E 7600             13     MOV @R0, #00H;clear 20H,21H,22H
+0110 900135           14     MOV DPTR, #COUNT
+0113 E4               15     CLR A
+0114 93               16     MOVC A, @A+DPTR
+0115 FF               17     MOV R7, A
+0116 900200           18     MOV DPTR, #0200H;numbers' location in Xram
+0119                  19     LOOP:
+0119 7820             20     MOV R0, #20H
+011B E6               21     MOV A, @R0
+011C F9               22     MOV R1, A
+011D E0               23     MOVX A, @DPTR
+011E 29               24     ADD A, R1
+011F D4               25     DA A
+0120 F6               26     MOV @R0, A; Low 8 bits
+0121 08               27     INC R0
+0122 A3               28     INC DPTR
+0123 E6               29     MOV A, @R0
+0124 F9               30     MOV R1, A
+0125 E0               31     MOVX A, @DPTR
+0126 39               32     ADDC A, R1
+0127 D4               33     DA A
+0128 F6               34     MOV @R0, A; High 8 bits
+0129 08               35     INC R0
+012A E6               36     MOV A, @R0
+012B F9               37     MOV R1, A
+012C E4               38     CLR A
+012D 39               39     ADDC A, R1
+012E D4               40     DA A
+012F F6               41     MOV @R0, A; Extra bits
+0130 A3               42     INC DPTR
+0131 DFE6             43     DJNZ R7, LOOP
+0133 80FE             44     SJMP $
+0135                  45     COUNT:
+0135 03               46     DB 03H
+                      47     END
+A51 MACRO ASSEMBLER  STARTUP                                                              03/14/2018 09:57:01 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+COUNT. . . . . . .  C ADDR   0135H   A   
+LOOP . . . . . . .  C ADDR   0119H   A   
+START. . . . . . .  C ADDR   0100H   A   
+WDTCN. . . . . . .  D ADDR   00FFH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
