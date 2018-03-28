@@ -3,6 +3,18 @@
   <head>
       <meta charset="utf-8" />
       <title>2_counter</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    extensions: [],
+    TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+    },
+    showMathMenu: false
+  });
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+</script>
       <style>body { padding: 0; margin: 0; }
 .markdown-preview-plus-view:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
 .markdown-preview-plus-view:not([data-use-github-style]) > :first-child { margin-top: 0px; }
@@ -123,6 +135,27 @@
 }
 .spell-check-corrections {
   width: 25em !important;
+}
+
+pre.editor-colors .gutter .line-number {
+  /* Use CSS specificity to force errors to override warnings and info markers */
+  /* Use CSS specificity to force warnings to override info markes. */
+}
+pre.editor-colors .gutter .line-number.latex-error,
+pre.editor-colors .gutter .line-number.latex-error.latex-warning,
+pre.editor-colors .gutter .line-number.latex-error.latex-info,
+pre.editor-colors .gutter .line-number.latex-error.latex-warning.latex-info {
+  border-left: 2px solid #d13b2e;
+  padding-left: calc(0.5em - 2px);
+}
+pre.editor-colors .gutter .line-number.latex-warning,
+pre.editor-colors .gutter .line-number.latex-warning.latex-info {
+  border-left: 2px solid #ad7c0b;
+  padding-left: calc(0.5em - 2px);
+}
+pre.editor-colors .gutter .line-number.latex-info {
+  border-left: 2px solid #0f82e6;
+  padding-left: calc(0.5em - 2px);
 }
 
 pre.editor-colors {
@@ -632,6 +665,15 @@ pre.editor-colors .fold-marker:after {
 </tr>
 </tbody>
 </table>
+<ul>
+<li>同级中断，小号优先级高</li>
+<li>全局中断是否打开</li>
+<li>中断是否被允许</li>
+<li>复位后中断都是禁止的</li>
+<li>中断控制位普遍为位寻址</li>
+<li>中断还会有相应的中断标识，比如串口之类</li>
+<li>中断标志有的是自动清除，有的是手动清除</li>
+</ul>
 <h4>TCON中断控制</h4>
 <table>
 <thead>
@@ -686,6 +728,11 @@ pre.editor-colors .fold-marker:after {
 </tr>
 </tbody>
 </table>
+<ul>
+<li>内部自带时钟电路，精度和频率都比较不可靠</li>
+<li>需要手动设置外部时钟</li>
+<li>时钟频率需要和通信波特率相符</li>
+</ul>
 <h2>实验内容</h2>
 <h3>控制LED闪烁</h3>
 <p>主板上的LED与CPU的P7端最高位相连，通过控制P7的输出，可以让这个LED闪烁。</p>
@@ -693,6 +740,23 @@ pre.editor-colors .fold-marker:after {
 <p>使用计数器0控制LED的闪烁频率为1Hz，为了保证计时精度，使用外部晶振。</p>
 <h3>控制LED亮度</h3>
 <p>使用PWM技术，控制亮度变化，实现亮暗交替的循环。</p>
+<h2>实验结果</h2>
+<h3>控制LED闪烁</h3>
+<p>将源码编译烧录进开发板后，观察到LED灯闪烁，闪烁频率约为1Hz，占空比50%。</p>
+<h3>使用计数器延时</h3>
+<p>将源码编译烧录进开发板后，观察到LED灯闪烁，与第一部分实验现象差别不大。</p>
+<h3>控制LED亮度</h3>
+<h4>烧录</h4>
+<p>将源码编译烧录进开发板后，观察到LED灯渐变闪烁，但由于闪烁频率太快，所以实验现象并不明显。</p>
+<h4>降低闪烁频率</h4>
+<p>考虑到直接修改脉冲宽度可能会导致刷新频率太低而观察到肉眼可见的闪烁，所以选择使用同一宽度脉冲输出多次的方法，在保持良好刷新率的情况下降低闪烁频率，获得较好的实验效果。</p>
+<h4>修改计时器</h4>
+<p>考虑到TH0决定了中断的触发频率，所以考虑通过修改TH0的数值，更改LED的刷新频率，进而实现高精度地修改LED灯的效果。由于芯片的工作原理为将TL0减一，再通过判断是否为0决定是否触发中断。因此，TH0为0时，中断频率最低，将TH0改为0x01后，LED灯保持常亮状态，将TH0改为0x0F，能明显观察到闪烁频率变快。</p>
+<h2>思考题</h2>
+<ol>
+<li>可以假设CPU一个clock完成一次加法，即可用循环次数除以单片机的机械频率得到延迟的时间。在第一部分实验中，CPU时钟频率2MHz，一次延时循环了500<em>100=5E4次，则延迟时间约为5E4</em>12/2E6=0.3秒。</li>
+<li>如果方波频率过低，就会观察到肉眼可见的闪烁，而非LED的渐变亮度变化。</li>
+</ol>
 <h2>源码</h2>
 <h3>控制LED闪烁</h3>
 <pre class="editor-colors lang-text"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>#include &lt;C8051F020.h&gt;</span></span></span>
@@ -791,9 +855,7 @@ pre.editor-colors .fold-marker:after {
 <span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>  if(pulsecount &gt; 48) {//150Hz</span></span></span>
 <span class="syntax--text syntax--plain"><span>    </span><span class="syntax--meta syntax--paragraph syntax--text"><span>pulsecount = 0;</span></span></span>
 <span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>    pulsewidth += delta;</span></span></span>
-<span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>    if(pulsewidth &lt;= 0)</span></span></span>
-<span class="syntax--text syntax--plain"><span>      </span><span class="syntax--meta syntax--paragraph syntax--text"><span>delta = -delta;</span></span></span>
-<span class="syntax--text syntax--plain"><span>    </span><span class="syntax--meta syntax--paragraph syntax--text"><span>else if(pulsewidth &gt;= 24)//PWM in 0-0.5</span></span></span>
+<span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>    if(pulsewidth &lt;= 0 || pulsewidth &gt;= 24)</span></span></span>
 <span class="syntax--text syntax--plain"><span>      </span><span class="syntax--meta syntax--paragraph syntax--text"><span>delta = -delta;</span></span></span>
 <span class="syntax--text syntax--plain"><span>  </span><span class="syntax--meta syntax--paragraph syntax--text"><span>}</span></span></span>
 <span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>  else {</span></span></span>
