@@ -1,0 +1,23 @@
+x_n = @(n) (n+1).*(0<=n&n<=13)+(27-n).*(14<=n&n<=26);
+index_short = linspace(0,31,32);
+index_long = linspace(0, 1023, 1024);
+data_short = x_n(index_short);
+data_long = x_n(index_long);
+fft_long = fft(data_long);
+subplot(1,3,1);
+stem(index_short, data_short);
+xlabel('n');
+ylabel('Amp');
+title('时域信号前32点图像');
+subplot(1,3,2);
+plot(index_long, abs(fft_long));
+xlabel('k');
+ylabel('Amp');
+xlim([0 1023])
+title('1024点FFT幅度谱');
+subplot(1,3,3);
+plot(index_long, phase(fft_long));
+xlabel('k');
+ylabel('phase');
+xlim([0 1023]);
+title('1024点FFT相位谱');
