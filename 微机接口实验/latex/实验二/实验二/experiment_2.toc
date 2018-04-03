@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}实验目的}{1}{section.1}
+\contentsline {section}{\numberline {2}实验原理}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}C51简介}{1}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}数据类型}{1}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}指定变量存储区域的关键字}{2}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}中断服务程序函数}{2}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}并行端口}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}MCS-51单片机的中断系统}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}时钟和振荡器}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}定时器和计数器}{6}{subsection.2.5}
+\contentsline {section}{\numberline {3}实验内容}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}控制LED闪烁}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}使用计数器延时}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}控制LED亮度}{9}{subsection.3.3}
+\contentsline {section}{\numberline {4}思考题}{11}{section.4}
+\contentsline {section}{\numberline {5}心得体会}{11}{section.5}

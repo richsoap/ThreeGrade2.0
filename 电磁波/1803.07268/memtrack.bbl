@@ -1,0 +1,199 @@
+\begin{thebibliography}{10}
+
+\bibitem{Song2017}
+Song, Y., Ma, C., Gong, L., Zhang, J., Lau, R., Yang, M.H.:
+\newblock {CREST: Convolutional Residual Learning for Visual Tracking}.
+\newblock In: ICCV. (2017)
+
+\bibitem{Nam2016}
+Nam, H., Han, B.:
+\newblock {Learning Multi-Domain Convolutional Neural Networks for Visual
+  Tracking}.
+\newblock In: CVPR. (2016)
+
+\bibitem{Wang2015}
+Wang, L., Ouyang, W., Wang, X., Lu, H.:
+\newblock {Visual Tracking with Fully Convolutional Networks}.
+\newblock In: ICCV. (2015)
+
+\bibitem{Bertinetto2016}
+Bertinetto, L., Valmadre, J., Henriques, J.F., Vedaldi, A., Torr, P.H.S.:
+\newblock {Fully-Convolutional Siamese Networks for Object Tracking}.
+\newblock In: ECCVW. (2016)
+
+\bibitem{Guo2017}
+Guo, Q., Feng, W., Zhou, C., Huang, R., Wan, L., Wang, S.:
+\newblock {Learning Dynamic Siamese Network for Visual Object Tracking}.
+\newblock In: ICCV. (2017)
+
+\bibitem{Tao2016}
+Tao, R., Gavves, E., Smeulders, A.W.M.:
+\newblock {Siamese Instance Search for Tracking}.
+\newblock In: CVPR. (2016)
+
+\bibitem{Held2016}
+Held, D., Thrun, S., Savarese, S.:
+\newblock {Learning to Track at 100 FPS with Deep Regression Networks}.
+\newblock In: ECCV. (2016)
+
+\bibitem{Valmadre2017}
+Valmadre, J., Bertinetto, L., Henriques, F., Vedaldi, A., Torr, P.H.S.:
+\newblock {End-to-end representation learning for Correlation Filter based
+  tracking}.
+\newblock In: CVPR. (2017)
+
+\bibitem{Nam2016-1}
+Nam, H., Baek, M., Han, B.:
+\newblock {Modeling and Propagating CNNs in a Tree Structure for Visual
+  Tracking}.
+\newblock In: ECCV. (2016)
+
+\bibitem{Yang2017}
+Yang, T., Chan, A.B.:
+\newblock {Recurrent Filter Learning for Visual Tracking}.
+\newblock In: ICCVW. (2017)
+
+\bibitem{Huang2017}
+Huang, C., Lucey, S., Ramanan, D.:
+\newblock {Learning Policies for Adaptive Tracking with Deep Feature Cascades}.
+\newblock In: ICCV. (2017)
+
+\bibitem{Graves2014}
+Graves, A., Wayne, G., Danihelka, I.:
+\newblock {Neural Turing Machines}.
+\newblock Arxiv (2014)
+
+\bibitem{Weston2015}
+Weston, J., Chopra, S., Bordes, A.:
+\newblock {Memory Networks}.
+\newblock In: ICLR. (2015)
+
+\bibitem{Sukhbaatar2015}
+Sukhbaatar, S., Szlam, A., Weston, J., Fergus, R.:
+\newblock {End-To-End Memory Networks}.
+\newblock In: NIPS. (2015)
+
+\bibitem{Graves2016}
+Graves, A., Wayne, G., Reynolds, M., Harley, T., Danihelka, I.,
+  Grabska-Barwi{\'{n}}ska, A., {G{\'{o}}mez Colmenarejo}, S., Grefenstette, E.,
+  Ramalho, T., Agapiou, J., Badia, A.P., {Moritz Hermann}, K., Zwols, Y.,
+  Ostrovski, G., Cain, A., King, H., Summerfield, C., Blunsom, P., Kavukcuoglu,
+  K., Hassabis, D.:
+\newblock {Hybrid computing using a neural network with dynamic external
+  memory}.
+\newblock Nature (2016)
+
+\bibitem{Santoro2016}
+Santoro, A., Bartunov, S., Botvinick, M., Wierstra, D., Lillicrap, T.:
+\newblock {One-shot Learning with Memory-Augmented Neural Networks}.
+\newblock In: ICML. (2016)
+
+\bibitem{Ba2016}
+Ba, J.L., Kiros, J.R., Hinton, G.E.:
+\newblock {Layer Normalization}.
+\newblock arXiv (2016)
+
+\bibitem{Srivastava2014}
+Srivastava, N., Hinton, G.E., Krizhevsky, A., Sutskever, I., Salakhutdinov, R.:
+\newblock {Dropout : A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock JMLR (2014)
+
+\bibitem{Zeiler2014}
+Zeiler, M.D., Fergus, R.:
+\newblock {Visualizing and Understanding Convolutional Networks}.
+\newblock In: ECCV. (2014)
+
+\bibitem{ILSVRC15}
+Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
+  Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.:
+\newblock {ImageNet Large Scale Visual Recognition Challenge}.
+\newblock International Journal of Computer Vision (IJCV) (2015)  211--252
+
+\bibitem{kingma2014adam}
+Kingma, D., Ba, J.:
+\newblock Adam: A method for stochastic optimization.
+\newblock arXiv (2014)
+
+\bibitem{abadi2016tensorflow}
+Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado,
+  G.S., Davis, A., Dean, J., Devin, M.,  et~al.:
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock arXiv (2016)
+
+\bibitem{Wu2013}
+Wu, Y., Lim, J., Yang, M.H.:
+\newblock {Online Object Tracking: A Benchmark}.
+\newblock In: CVPR. (2013)
+
+\bibitem{Wu2015}
+Wu, Y., Lim, J., Yang, M.H.:
+\newblock {Object Tracking Benchmark}.
+\newblock PAMI (2015)
+
+\bibitem{Kristan2016}
+Kristan, M., Leonardis, A., Matas, J., Felsberg, M.:
+\newblock {The Visual Object Tracking VOT2016 Challenge Results}.
+\newblock In: ECCVW. (2016)
+
+\bibitem{Wang2017}
+Wang, M., Liu, Y., Huang, Z.:
+\newblock {Large Margin Object Tracking with Circulant Feature Maps}.
+\newblock In: CVPR. (2017)
+
+\bibitem{Choi2017}
+Choi, J., Chang, H.J., Yun, S., Fischer, T., Demiris, Y., {Jin Young Choi}:
+\newblock {Attentional Correlation Filter Network for Adaptive Visual
+  Tracking}.
+\newblock In: CVPR. (2017)
+
+\bibitem{Bertinetto2016-1}
+Bertinetto, L., Valmadre, J., Golodetz, S., Miksik, O., Torr, P.:
+\newblock {Staple: Complementary Learners for Real-Time Tracking}.
+\newblock In: CVPR. (2016)
+
+\bibitem{Danelljan2014}
+Danelljan, M., H{\"{a}}ger, G., Khan, F., Felsberg, M.:
+\newblock {Accurate Scale Estimation for Robust Visual Tracking}.
+\newblock In: BMVC. (2014)
+
+\bibitem{Henriques2015}
+Henriques, J.F., Caseiro, R., Martins, P., Batista, J.:
+\newblock {High-speed tracking with kernelized correlation filters}.
+\newblock TPAMI (2015)
+
+\bibitem{Lukezic2017}
+Luke{\v{z}}i{\v{c}}, A., Voj{\'{i}}ř, T., {\v{C}}ehovin, L., Matas, J.,
+  Kristan, M.:
+\newblock {Discriminative Correlation Filter with Channel and Spatial
+  Reliability}.
+\newblock In: CVPR. (2017)
+
+\bibitem{Zhang2017}
+Zhang, T., Xu, C., Yang, M.h.:
+\newblock {Multi-task Correlation Particle Filter for Robust Object Tracking}.
+\newblock In: CVPR. (2017)
+
+\bibitem{Danelljan2016}
+Danelljan, M., H{\"{a}}ger, G., Khan, F.S., Felsberg, M.:
+\newblock {Adaptive Decontamination of the Training Set: A Unified Formulation
+  for Discriminative Visual Tracking}.
+\newblock In: CVPR. (2016)
+
+\bibitem{Danelljan2015}
+Danelljan, M., Gustav, H., Khan, F.S., Felsberg, M.:
+\newblock {Learning Spatially Regularized Correlation Filters for Visual
+  Tracking}.
+\newblock In: ICCV. (2015)
+
+\bibitem{Qi2016}
+Qi, Y., Zhang, S., Qin, L., Yao, H., Huang, Q., Yang, J.L.M.h.:
+\newblock {Hedged Deep Tracking}.
+\newblock In: CVPR. (2016)
+
+\bibitem{Ma2015}
+Ma, C., Huang, J.b., Yang, X., Yang, M.h.:
+\newblock {Hierarchical Convolutional Features for Visual Tracking}.
+\newblock In: ICCV. (2015)
+
+\end{thebibliography}
