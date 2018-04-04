@@ -1,13 +1,12 @@
-\documentclass[UTF8]{ctexart}
+\documentclass[UTF8]{article}
 \usepackage{CJK}
-\usepackage{tex_utils}
-\usepackage{amsmath, amssymb}
-\usepackage{color}
 \usepackage{cite}
+\usepackage{multirow}
 \begin{document}
+\begin{CJK}{UTF8}{gkai}
 \title{电磁波理论与应用导论课后作业}
 \author{杨庆龙\quad 1500012956}
-\institute{yangqinglong@pku.edu.cn}
+%\institute{yangqinglong@pku.edu.cn}
 \maketitle
 
 \part{第一部分\quad 课后问题回答}
@@ -23,6 +22,7 @@
 中国有三大移动通信运营商，而且每个运营商都支持2G，3G，4G三代网络，又加上同一代通信网络也会有不同的解决方案，所以中国国内手机通信的频率使用非常复杂。详情见以下表格:
 
 \begin{table}[!htbp]
+  \centering
 \caption{中国移动频率使用表}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
@@ -105,5 +105,29 @@ FDD-LTE&1765-1780&1860-1875\\
 
 Ministryofinformationindustrypeople'srepublicofChina. 中华人民共和国无线电频率划分规定[M]. 人民邮电出版社, 2003.
 
+电磁波看不见摸不着，但又无处不在。但不同电磁波却有着完全不同的性质，微波可以被用来加热食物，X光可以用来机场安检，红外更是可以帮助我们在黑暗中看清物体。只有充分了解不同波长电磁波的性质，我们才能够利用电磁波制造出产品，改善人类的生活。下文就将按照低频到高频的顺序，介绍不同波长电磁波的相关性质和应用。
 
+ 极低频(ELF)
+极低频电磁波指的是频率为3Hz到30Hz，波长为10000公里到100000公里电磁波。这种电磁波波长极长，远远大于普通地表起伏的物理尺度。因此，这种电磁波可以轻松绕过地表障碍物，实现地表远距通信。此外，极低频电磁波还可以被电离层反射，这就使得地表和电离层构成了一个巨型波导，使得该电磁波甚至有能力实现全球通信。此外，由于很少有分子的振动频率低至几十Hz，所以这种电磁波在空气和水中的衰减都很小[Jursa, Adolph S., Ed. (1985). Handbook of Geophysics and the Space Environment, 4th Ed (PDF). Air Force Geophysics Laboratory, U.S. Air Force. pp. 10.25–10.27.],因此该电磁波还曾被用于潜艇通信[Barr R, Jones D L, Rodger C J. ELF and VLF radio waves [J]. Journal of Atmospheric and Solar-Terrestrial Physics, 2000, 62(17):1689-1718.],但由于其带宽实在有限，所以能传递的信息很少，现在已经不再使用。
+该电磁波由于带宽太窄，所以多少应用方面的研究，但其传播距离很广的特点却引起了不少健康方面的关注。
+%http://www.wanfangdata.com.cn/details/detail.do?_type=perio&id=bqeykdxxb201202075#
+%http://www.wanfangdata.com.cn/details/detail.do?_type=perio&id=zhldwszyb201308014
+%http://www.wanfangdata.com.cn/details/detail.do?_type=perio&id=zgyfyxzz200805019
+ 超低频(SLF)
+超低频指的是频率介于30Hz到300Hz间的电磁波，常见电力传输所使用的即为该波段的电磁波,这也是该电磁波最常见的用途。与ELF类似的，该波段电磁波在水中传播的衰减也很微弱，因此也被用于潜艇通信[ "Navy gets new facility to communicate with nuclear submarines prowling underwater". The Times of India. 31 July 2014.]
+ 特低频(ULF)
+特低频指的是300Hz到3kHz的电磁波。这个频段在地球物理学科十分有用，因为不论是地震还是等离子层扰动都会产生特低频电磁波，也就可以通过检测这些电磁波实现对地球物理状态的监控。
+此外，该波段的电磁波还具有穿透地表的能力，因此，该波段电磁波还被北约用于早期的地面通信，以实现山地通信。由于其带宽比较有限，所以现在已经不再军用，但依然被广泛采用与挖矿等特殊工作场所。
+ 甚低频(VLF)
+甚低频指的是3kHz到30kHz的电磁波。与ELF波类似，该波段的电磁波一样可以绕过山地，被电离层反射，进而实现远距传输。但是，与ELF不同，VLF主要是在电离层界面上传播，也因此更容易受太阳活动影响，远距传输时噪声也比ELF波大很多。
+由于其具有一定带宽而又可以传播很远的距离，除了被用于最基本的声音信号通信外，也常用于导航和授时。此外，该波段也被用于潜艇通信，但通信距离不如SLF那么深，对发射机的功率也有一定的要求，但其使用频移键控调制方式时，传输速率最高能到75bit/s，已具有传递简单战术命令的命令的能力，和ELF只能传递"入/出海底"的指令相比又进了一大步。
+ 低频(LF)
+低频电磁波频率为30kHz到300kHz。由于这个波段的电磁波衰减比较慢，而带宽又足够宽，能够调制具有一定带宽的语音信号，故最常用于AM无线电广播。与VLF类似，该波段也被用于授时系统和导航系统。
+因为只需要一般的晶振就能产生相应波段的基频信号，而调制也不涉及过于复杂的数学物理过程，所以该波段也是无线电爱者最常用的波段.
+ 中频(MF)
+中频电磁波位于300kHz到3MHz的范围内。与LF，VLF类似，该波段也用于授时，导航与广播。该波段的电磁波能够传递一定的距离但又不会过远，发射设备和接收设备都可以做到轻量化和低能耗，所以非常适合用于海上船只间的通信和陆地与海上船只间的通信。
+该波段电磁波一样会被电离层反射，实现超视距通信，但通信状态极其容易受电离层状态影响。当电磁波被波动较大的D层反射时，就会带来大量噪声，超视距通信效果将大打折扣；而到了夜晚，随着太阳活动对相应区域电离层的影响减弱，该电磁波就能被较为稳定的F层反射，并实现效果非常优秀的超视距通信。
+ 高频(HF)
+高频为3MHz到30MHz的范围内。该波段主要用于需要较大带宽和具有一定距离的通信场景，常见的有军用短波通信系统，地空通信系统，短波区域广播，岸舰通信系统，超视距雷达，全球海上遇险和安全系统。
+\end{CJK}
 \end{document}
