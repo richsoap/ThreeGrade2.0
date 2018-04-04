@@ -190,6 +190,7 @@ INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu70.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu9e.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu71.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu9a.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu67.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu20.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu6f.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu50.tfm
@@ -197,6 +198,12 @@ INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu7b.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu58.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu61.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu83.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu9a.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu86.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu87.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu94.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu59.tfm
+INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu51.tfm
 INPUT /home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -258,6 +265,8 @@ INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu83.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu84.pfb
+INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu86.pfb
+INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu87.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb
@@ -266,6 +275,7 @@ INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb
+INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu94.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb
 INPUT /usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb
