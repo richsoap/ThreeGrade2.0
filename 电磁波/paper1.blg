@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper1.aux
+The style file: plain.bst
+Database file #1: ref.bib.bib
+I was expecting a `,' or a `}'---line 42 of file ref.bib.bib
+ : @article{赵龙宇 
+ :                    2012 工作场所极低频电磁辐射对作业人员健康状况影响的调查分析,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 52 of file ref.bib.bib
+ : @article{刘欣 
+ :                 2013 极低频电磁场暴露对从业人员肝脏功能的影响,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "赵龙宇2012工作场所极低频电磁辐射对作业人员健康状况影响的调查分析"
+Warning--I didn't find a database entry for "刘欣2013极低频电磁场暴露对从业人员肝脏功能的影响"
+Name 1 in "Jan, Van Der Bliek," has a comma at the end for entry Jan2001AGARD
+while executing---line 1049 of file plain.bst
+Name 1 in "Jan, Van Der Bliek," has a comma at the end for entry Jan2001AGARD
+while executing---line 1090 of file plain.bst
+Warning--empty journal in Jan2001AGARD
+Warning--empty journal in Weis2011RFID
+You've used 7 entries,
+            2118 wiz_defined-function locations,
+            548 strings with 5112 characters,
+and the built_in function-call counts, 1819 in all, are:
+= -- 171
+> -- 71
+< -- 0
++ -- 29
+- -- 22
+* -- 113
+:= -- 328
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 75
+empty$ -- 153
+format.name$ -- 22
+if$ -- 369
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 8
+newline$ -- 38
+num.names$ -- 14
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 48
+stack$ -- 0
+substring$ -- 92
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 2
+while$ -- 17
+width$ -- 8
+write$ -- 73
+(There were 4 error messages)

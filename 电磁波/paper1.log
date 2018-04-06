@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  4 APR 2018 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  6 APR 2018 17:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -148,34 +148,243 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
  [2] [3]
-Missing character: There is no ^^S in font gkaiu20!
- [4
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Missing \endcsname inserted.
+<to be read again> 
+                   \global 
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-] [5] [6] (/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.aux) ) 
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+LaTeX Warning: Citation `赵龙宇2012工作场所极低频电磁辐射对作业人员健康状况影响的调查分析' on page 4 undefined on input line 111.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra \else.
+\@make@cite@list ...hepage \space undefined}\else 
+                                                  \@cite@nonhyper@sanitize \...
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I'm ignoring this; it doesn't match any \if.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Missing \endcsname inserted.
+<to be read again> 
+                   �
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Undefined control sequence.
+\@B@citeB ->\b@ 
+                赵龙宇2012工作场所极低频电磁辐射对作业人�...
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Missing \endcsname inserted.
+<to be read again> 
+                   \global 
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I'm ignoring this, since I wasn't doing a \csname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra }, or forgotten \endgroup.
+\@cite@out #1->\citeform {\csname #1\endcsname }
+                                                
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Missing \endcsname inserted.
+<to be read again> 
+                   \global 
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no 2 in font gkaiu52!
+Missing character: There is no 1 in font gkaiu52!
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra \endcsname.
+\@make@cite@list ...eb \@extra@b@citeb \endcsname 
+                                                  \relax \@citea {\bfseries ...
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I'm ignoring this, since I wasn't doing a \csname.
+
+Missing character: There is no , in font gkaiu52!
+
+LaTeX Warning: Citation `刘欣2013极低频电磁场暴露对从业人员肝脏功能的影响' on page 4 undefined on input line 111.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra \else.
+\@make@cite@list ...hepage \space undefined}\else 
+                                                  \@cite@nonhyper@sanitize \...
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I'm ignoring this; it doesn't match any \if.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Missing \endcsname inserted.
+<to be read again> 
+                   �
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Undefined control sequence.
+\@B@citeB ->\b@ 
+                刘欣2013极低频电磁场暴露对从业人员肝脏功�...
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no , in font gkaiu52!
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Missing \endcsname inserted.
+<to be read again> 
+                   \global 
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Missing character: There is no 2 in font gkaiu52!
+Missing character: There is no 1 in font gkaiu52!
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra \endcsname.
+\@cite@out #1->\citeform {\csname #1\endcsname 
+                                               }
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I'm ignoring this, since I wasn't doing a \csname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.tex:111: Extra }, or forgotten \endgroup.
+\@cite@out #1->\citeform {\csname #1\endcsname }
+                                                
+l.111 ...�露对从业人员肝脏功能的影响}
+                                                  。
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[4
+
+] [5] [6] (/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.bbl
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.bbl:5: Undefined control sequence.
+\CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
+                                                  \fi 
+l.5 \newblock Elf and vlf radio waves ☆
+                                         .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.bbl:33: Misplaced alignment tab character &.
+l.33 \newblock {\em Physics of the Earth &
+                                           Planetary Interiors},
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.bbl:34: Undefined control sequence.
+\CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
+                                                  \fi 
+l.34   173(3–
+               4):207--215, 2009.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [7] (/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2180 strings out of 493029
- 31019 string characters out of 6136234
- 88098 words of memory out of 5000000
- 5677 multiletter control sequences out of 15000+600000
- 51650 words of font info for 185 fonts, out of 8000000 for 9000
+ 2235 strings out of 493029
+ 32141 string characters out of 6136234
+ 91098 words of memory out of 5000000
+ 5728 multiletter control sequences out of 15000+600000
+ 51613 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,9n,29p,1028b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu30.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu55.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/t
-exmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu58.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu61.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts
-/type1/arphic/gkaiu/gkaiu69.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu71.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arp
-hic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu83.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu84.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu86.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu87.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/
-gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu94.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
-Output written on /home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.pdf (6 pages, 551514 bytes).
+ 23i,9n,31p,768b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu30.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu55.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/
+texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu58.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu61.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/font
+s/type1/arphic/gkaiu/gkaiu69.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu71.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/ar
+phic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu83.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu84.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu86.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu87.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu
+/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu92.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu94.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
+Output written on /home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.pdf (7 pages, 614448 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
+ 354 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
