@@ -3,7 +3,7 @@ index_short = linspace(0,31,32);
 index_long = linspace(0, 1023, 1024);
 data_short = x_n(index_short);
 data_long = x_n(index_long);
-fft_long = fft(data_long);
+fft_long = fftshift(fft(data_long));
 subplot(1,3,1);
 stem(index_short, data_short);
 xlabel('n');

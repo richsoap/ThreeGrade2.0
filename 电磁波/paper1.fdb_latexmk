@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex paper1"] 1523004887 "paper1.aux" "paper1.bbl" "paper1" 1523006099
+["bibtex paper1"] 1523004887 "paper1.aux" "paper1.bbl" "paper1" 1523241663
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "paper1.aux" 1523006099 3772 59e171a61ebcf4749a1342aac994a4c3 ""
+  "paper1.aux" 1523241663 3772 59e171a61ebcf4749a1342aac994a4c3 ""
   "paper1.bcf" 0 -1 0 ""
   "ref.bib" 1523001924 2218 16639c203e1f470b959aad471a9b5ca4 ""
   (generated)
-  "paper1.bbl"
   "paper1.blg"
-["pdflatex"] 1523006099 "paper1.tex" "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.pdf" "paper1" 1523006099
+  "paper1.bbl"
+["pdflatex"] 1523241663 "paper1.tex" "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.pdf" "paper1" 1523241663
   "/etc/texmf/web2c/texmf.cnf" 1522218669 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.aux" 1523006099 3772 59e171a61ebcf4749a1342aac994a4c3 ""
+  "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.aux" 1523241663 3772 59e171a61ebcf4749a1342aac994a4c3 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -197,12 +197,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1522218697 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1522218705 3854767 1b663ba907a3ef171d9866665dd102ca ""
-  "paper1.aux" 1523006099 3772 59e171a61ebcf4749a1342aac994a4c3 ""
+  "paper1.aux" 1523241663 3772 59e171a61ebcf4749a1342aac994a4c3 ""
   "paper1.bbl" 1523004887 1204 d39ee9b3717408542ef1bdb4da43d7b4 "bibtex paper1"
-  "paper1.tex" 1523006089 14433 30d85cf7a6f13c37e61acc341f1960d5 ""
+  "paper1.tex" 1523241648 14984 04bb1c4875b59733643378b6e50a7030 ""
   (generated)
-  "paper1.pdf"
   "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.pdf"
-  "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.log"
-  "paper1.aux"
+  "paper1.pdf"
   "paper1.log"
+  "paper1.aux"
+  "/home/richsoap/Workspaces/ThreeGrade2.0/电磁波/paper1.log"
