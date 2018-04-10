@@ -27,6 +27,15 @@ void int1_init(int delta) {
   ET1 = 1;
 }
 
+void int4_init(int delta) {
+  T4CON = 0;
+  CKCON |= 0x40;
+  RCAP4 = -delta;
+  T4 = RCAP4;
+  EIE2 |= 0x04;
+  T4CON |= 0x04;
+}
+
 void delay(int delta) {
   int i, j;
   for(i = 0;i < 500;i ++)
