@@ -1,7 +1,9 @@
 #include <C8051F020.h>
 #include "../include/time.h"
 #include "../include/adc.h"
+#ifndef SYSCLK
 #define SYSCLK 22118400
+#endif
 #define SAMPLERATE 10000
 
 unsigned adc_result;

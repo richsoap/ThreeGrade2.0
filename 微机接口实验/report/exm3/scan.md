@@ -1,4 +1,4 @@
-# 实验三 键盘与现实
+<h1 style="text-align:center">实验三 键盘与现实</h1>
 <div style="text-align:center">实验人:杨庆龙<br/>实验日期:2018.3.28</div>
 
 ## 实验目的

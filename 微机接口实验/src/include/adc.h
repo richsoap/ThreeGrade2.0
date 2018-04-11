@@ -2,12 +2,15 @@
 #define ADC_H
 
 sfr16 DAC0 = 0xD2;
+
+sfr16 DAC1 = 0xD5;
 sfr16 ADC0 = 0xBE;
 
 void dac0_init() {
   REF0CN = 0x03;
   DAC0CN = 0x97;//使用Timer4作为触发,左对齐
 }
+
 void adc0_init(int clock) {
   ADC0CN = 0x05; //由TImer3触发，左对齐
   REF0FN = 0x03;
@@ -16,5 +19,10 @@ void adc0_init(int clock) {
   ADC0CF &= ~0x07;
   EIE2 &= ~0x02;
   AD0EN = 1;
+}
+
+void dac1_init() {
+  REF0CN = 0x03;
+  DAC1CN = 0x97;//使用Timer4触发,左对齐
 }
 #endif

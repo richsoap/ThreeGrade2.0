@@ -1,6 +1,7 @@
 #include <C8051F020.h>
 #ifndef TIME_H
 #define TIME_H
+#define SYSCLK 22118400
 
 sfr16 TIME_RCAP4 = 0xE4;
 sfr16 TIME_T4 = 0xF4;

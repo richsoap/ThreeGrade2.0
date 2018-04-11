@@ -141,13 +141,83 @@ x(N-1)
 \section{实验二}
 问题描述:模拟信号$x_a=\sin(2\pi f_0t)+0.5\sin(6\pi f_0t),f_0=1Hz$，按要求完成以下各小题:
 \subsection{分别设定采样频率为$5f_0$、$10f_0$、$15f_0$，绘制模拟信号图和采样后的离散信号图；（只需画出三个周期即可t：0—3）}
-先生成采样间隔$1000f_0$的时间序列模拟出模拟信号的时域波形，再分别生成所需采样间隔的时间序列进行采样。得到的结果如图\ref{pro2_fig1}
+先生成采样间隔$10000f_0$的时间序列模拟出模拟信号的时域波形，再分别生成所需采样间隔的时间序列进行采样。得到的结果如图\ref{pro2_fig1}
 \begin{figure}
   \includegraphics[scale=0.3]{pro2_subpro1.eps}
   \caption{不同采样率所得离散信号图谱}
   \label{pro2_fig1}
 \end{figure}
+\subsection{做FFT，画出其幅度谱，验证时域采样定理}
+对三种时域采样得到的信号进行FFT可得幅度谱如图\ref{pro2_fig2}
+\begin{figure}
+  \includegraphics[scale=0.4]{pro2_subpro2.eps}
+  \caption{不同采样率所得离散信号FFT幅度谱}
+  \label{pro2_fig2}
+\end{figure}
+\begin{itemize}
+  \item 原信号:原信号的频谱有两个峰，分别代表1Hz和3Hz的信号。此外，这两个峰的高度也反映了这两种信号的信号强度大小。
+  \item 5Hz采样:该采样率下得到的FFT图谱只有一个峰，即5Hz采样只能完整采到1Hz的信号，并不能完整采到3Hz信号。
+  \item 10Hz采样:该采样率已经高于信号最高频率3Hz的两倍，理论上能够完整采下3Hz的信号。FFT图谱中有两个峰，所以已经采到3Hz信号，但观察图谱边缘，可以发现边缘处的分量大小并没有明显趋于0。这表明该采样率下能够在一定程度上恢复原信号，但还是会有一定大小的失真。
+  \item 15Hz采样:该采样率明显高于3Hz的两倍，FFT图谱中也出现了两个峰，而且边缘处信号分量也已经趋于0。所以，该采样率应该能够较好地恢复信号。
+\end{itemize}
 
+\subsection{用内插公式重建时域信号，并与原信号进行对比。}
+将第二问中得到的三种FFT序列进行IFFT变换，得到还原信号的离散时间序列，再进行线性插值可得连续还原信号如图\ref{pro2_fig3}
+\begin{figure}
+  \includegraphics[scale=0.4]{pro_subpro3.eps}
+  \caption{不同采样率还原信号波形}
+  \label{pro2_fig3}
+\end{figure}
+\begin{itemize}
+  \item 5Hz采样率只恢复了信号的低频变化情况，缺少了很多信息。
+  \item 10Hz采样率恢复了信号时域波形的大部分信息，但还是有一些小抖动。
+  \item 15Hz采样率几乎完全恢复了原始信号。
+\end{itemize}
+综上，只有信号的采样率大于时域信号的最高频率的两倍才有可能完全恢复信号。但在实际的情况下，为了提高信号的恢复质量，需要适当提高采样率才能实现信号的无失真恢复。
+
+\section{序列x(n)如\ref{pro3_equ1}，按照以下要求完成下列各小题}
+\begin{equation}
+  x(n)=\left\{
+  \begin{array}{cc}
+    n+1 & 0\leq n\leq13\\
+    27-n & 14\leq n\leq26\\
+    0 & other case
+  \end{array}
+  \right.
+  \label{pro3_equ1}
+\end{equation}
+\subsection{绘制x(n)离散信号图，对进行1024点FFT，并图示之}
+按照题目中所给的分段函数，可以得到该信号的时域离散信号图和1024点FFT变换如图
+\begin{figure}
+  \includegraphics{pro3_subpro1.eps}
+  \caption{原信号时域离散图和1024点FFT变换图}
+  \label{pro3_fig1}
+\end{figure}
+\subsection{对x(n)进行N点FFT和IFFT，分别选取N>27和N<27, 对其进行FFT和IFFT，作图并验证频域采样定理}
+对x(n)分别进行16点和32点FFT，再将其进行27点IFFT恢复原始波形如图\ref{pro2_fig2}。
+\begin{figure}
+  \includegraphics{pro3_subpro2.eps}
+  \caption{16点/32点FFT和IFFT波形图}
+  \label{pro3_fig2}
+\end{figure}
+
+从图中可以看到，由于16点FFT不满足频域采样定理，所以并不能恢复到27点时域波形。\\
+而32点采样满足频域采样定理，所以可以较好地恢复27点时域波形。
+\section{两组有限长序列x1(n)=[1 3 5 3 6 8 3 9]，x2(n)=[2 3 4 6 7 9 0 2]，计算两序列的圆周卷积y1(n)与线性卷积y2(n)，比较二者的区别。}
+对两序列直接进行8点圆周卷积可得序列\ref{pro4_cir1}。
+\begin{equation}
+  \label{pro4_cir1}
+\end{equation}
+对两序列进行20点圆周卷积可得序列\ref{pro4_cir2}
+\begin{equation}
+  \label{pro4_cir2}
+\end{equation}
+对两序列进行线性卷积可得序列\ref{pro4_lin1}
+\begin{equation}
+  \label{pro4_lin1}
+\end{equation}
+比较两种圆周卷积方法得到的结果很容易发现，由于圆周卷积具有相位重复的特点，所以较短长度的圆周卷积会发生明显的混叠，与线性卷积相去甚远。而长度大于两信号长度和的圆周卷积结果则与线性卷积一致，只是需要进行相应的补零操作即可。\\
+综上，只需要将离散输入信号进行相应地补零操作，再进行圆周卷积，就可以得到相应的线性卷积，方便了我们的计算。
 
 \end{CJK}
 \end{document}
