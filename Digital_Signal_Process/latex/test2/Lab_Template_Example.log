@@ -1,0 +1,1594 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  12 APR 2018 20:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Lab_Template_Example.tex
+(/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text only upper/lower case changing (DPC)]. on input line 3682.
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+ (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+ (/usr/share/texlive/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+)) (/usr/share/texlive/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
+) (/usr/share/texlive/texmf-dist/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
+) (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/kvmacros.tex
+
+Macros for typesetting Karnaugh maps and Veitch charts
+Version of January 7th, 2002
+by Andreas W. Wieland, awwieland@gmx.de
+
+\kvunitlength=\dimen102
+\kvrecursiondepth=\count93
+\kvindexcounter=\count94
+\kvxsize=\count95
+\kvysize=\count96
+\kvvarno=\count97
+\kvxvarno=\count98
+\kvyvarno=\count99
+\kvmarkstart=\count100
+\kvmarklength=\count101
+\kvmarknum=\count102
+\kvmarkmove=\count103
+\kvsavebox=\box34
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count104
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count105
+\float@exts=\toks17
+\float@box=\box35
+\@float@everytoks=\toks18
+\@floatcapt=\box36
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks19
+\verbatim@line=\toks20
+\verbatim@in@stream=\read1
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen105
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count106
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count107
+\leftroot@=\count108
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count109
+\DOTSCASE@=\count110
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box37
+\strutbox@=\box38
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
+\dotsspace@=\muskip11
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks22
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks23
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks24
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+)) (/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip48
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count118
+\lst@gtempboxa=\box39
+\lst@token=\toks26
+\lst@length=\count119
+\lst@currlwidth=\dimen114
+\lst@column=\count120
+\lst@pos=\count121
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count122
+\lst@lineno=\count123
+\lst@maxwidth=\dimen117
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count124
+\lst@skipnumbers=\count125
+\lst@framebox=\box40
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecaptionskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr #1: #2}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \flushing \let \footnote \@footnotemark@gobble #1: #2\par \endgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil }}\endgroup \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count126
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count127
+\sf@farskip=\skip49
+\sf@captopadj=\dimen125
+\sf@capskip=\skip50
+\sf@nearskip=\skip51
+\c@subfigure=\count128
+\c@subfigure@save=\count129
+\c@lofdepth=\count130
+\c@subtable=\count131
+\c@subtable@save=\count132
+\c@lotdepth=\count133
+\sf@top=\skip52
+\sf@bottom=\skip53
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen126
+\Hy@linkcounter=\count134
+\Hy@pagecounter=\count135
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count136
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count137
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen127
+\Fld@menulength=\count138
+\Field@Width=\dimen128
+\Fld@charsize=\dimen129
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count139
+\c@Item=\count140
+\c@Hfootnote=\count141
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count142
+\c@bookmark@seq@number=\count143
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip54
+) (/usr/share/texmf/tex/latex/CJK/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+ (/usr/share/texmf/tex/latex/CJK/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+) (/usr/share/texmf/tex/latex/CJK/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box41
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.aux)
+\openout1 = `Lab_Template_Example.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+Class revtex4 Info: Patching LaTeX tabular. on input line 97.
+Class revtex4 Info: cite was not loaded (OK!) on input line 97.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 97.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count144
+\scratchdimen=\dimen130
+\scratchbox=\box42
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen131
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count150
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: Incompatible package detected (regarding \caption).
+(caption)             \caption = macro:->\minipagefootnote@here \ifx \@captype \@undefined \@latex@error {\noexpand \caption outside float}\@ehd \expandafter \@gobble \else \H@refstepcounter \@captype \let \Hy@tempa \@caption \@ifundefined {float@caption}{}{\expandafter \ifx \csname @float@c@\@captype \endcsname \float@caption \let \Hy@tempa \Hy@float@caption \fi }\expandafter \@firstofone \fi {\@dblarg {\Hy@tempa \@captype }}.
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box43
+Package hyperref Info: Link coloring ON on input line 97.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count151
+)
+LaTeX Info: Redefining \ref on input line 97.
+LaTeX Info: Redefining \pageref on input line 97.
+LaTeX Info: Redefining \nameref on input line 97.
+ (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.out) (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.out)
+\@outlinefile=\write3
+\openout3 = `Lab_Template_Example.out'.
+
+ (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for C70+gkai on input line 119.
+ (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fd
+File: c70gkai.fd 2008/10/03 4.8.1
+) (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fdx
+File: c70gkai.fdx 2012/05/07 4.8.3
+)
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \@sect@ltx has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \small \bfseries \centering }\endcsname \relax \CJKsymbol \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \@sect@ltx was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \@sect@ltx has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \small \bfseries \centering }\endcsname \relax \CJKsymbol \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \@sect@ltx was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \@sect@ltx has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \small \bfseries \centering }\endcsname \relax \CJKsymbol \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \@sect@ltx was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Missing \endcsname inserted.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@tempa ->s
+             ection*.1
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+\HyPsd@ProtectSpaces ...d@RemoveMask #1\HyPsd@End 
+                                                  #1
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \KVS@@CommaComma has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{section},\KVS@Nil \KVS@Equals \KVS@SpaceEquals \KVS@EqualsSpace \xdef \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \KVS@@CommaComma was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Use of \HyPsd@RemoveMask doesn't match its definition.
+\Hy@temp@A #1#2->\define@key 
+                             {pdfinfo}{#2}{\hypersetup {pdf#1={##1}}}
+l.119 \section{实验一}
+                         
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Argument of \Hy@temp@A has an extra }.
+<inserted text> 
+                \par 
+l.119 \section{实验一}
+                         
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Paragraph ended before \Hy@temp@A was complete.
+<to be read again> 
+                   \par 
+l.119 \section{实验一}
+                         
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Undefined control sequence.
+<argument> pdf\HyPsd@End 
+                         ={##1}
+l.119 \section{实验一}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   1
+l.119 \section{实验一}
+                         
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 11062 strings out of 493029
+ 159011 string characters out of 6136234
+ 288458 words of memory out of 5000000
+ 14474 multiletter control sequences out of 15000+600000
+ 6517 words of font info for 24 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,5n,58p,305b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/latex/test2/Lab_Template_Example.tex:119:  ==> Fatal error occurred, no output PDF file produced!
