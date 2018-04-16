@@ -1,4 +1,5 @@
-\input{../common_header.tex}
+\documentclass{article}
+%\input{common_header.tex}
 % TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
 % Remember to fill this section out for each
 % lab write-up.
@@ -8,33 +9,25 @@
 \newcommand{\authorname}{杨庆龙}
 \newcommand{\idnumber}{1500012956}
 \newcommand{\labdate}{2018.4.11}
+\usepackage{CJK}
+\usepackage{listings}
 % END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}  % START THE DOCUMENT!
 
-\begin{CJK}
+\begin{CJK}{UTF8}{gkai}
 
 % TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % If you'd like to change the content of this,
 % do it in the "TITLE PAGE CONTENT" directly above
 % this message
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{titlepage}
-\begin{center}
-{\LARGE \textsc{实验 No. \labno:} \\ \vspace{4pt}}
-{\Large \textsc{\labtitle} \\ \vspace{4pt}}
-\rule[13pt]{\textwidth}{1pt} \\ \vspace{150pt}
-{\large 实验人: \authorname \\ \vspace{10pt}
-学号: \idnumber \\ \vspace{10pt}
-实验日期: \labdate}
-\end{center}
-\end{titlepage}
-% END TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
+\title{实验四 模数与数模转换}
+\author{杨庆龙}
+\date{2018.4.11}
+\maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -62,6 +55,7 @@
   \hline
   D7&D6&D5&D4&D3&D2&D1&D0\\
   DAC0EN&&&DAC0MD1&DAC0MD0&DAC0DF2&DAC0DF1&DAC0DF0\\
+	\hline
 \end{tabular}
 \end{table}
 \begin{itemize}
@@ -156,16 +150,10 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{实验内容}
 \subsection{数模转换}
-使用DAC输出三角波，用示波器验证输入信号的频率与幅度，探头接TP_DAC,地线接TP_AGND.参考程序如下。
-  \vspace{5mm}
-	\lstinputlisting{dac.c}
-	\vspace{3mm}
+% 使用DAC输出三角波，用示波器验证输入信号的频率与幅度，探头接TP_DAC,地线接TP_AGND。
 
 \subsection{模数转换}
-使用ADC进行模数转换，并将结果输出到数码管显示，参考程序如下。
-	\vspace{5mm}
-	\lisinputlisting{adc.c}
-	\vspace{3mm}
+使用ADC进行模数转换，并将结果输出到数码管显示。
 
 \subsection{模数数模联调}
 \subsubsection{转换输出}

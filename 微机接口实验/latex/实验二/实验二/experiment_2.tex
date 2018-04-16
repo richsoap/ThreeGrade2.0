@@ -1,32 +1,32 @@
 %!TEX program = xelatex
 \input{experiment_head.tex}
 \usepackage{tabularx}
-\lstset{%  
-language={C},       %language为Verilog，还有{[Visual]C++}  
-%alsolanguage=[ANSI]C,      %可以添加很多个alsolanguage,如alsolanguage=matlab,alsolanguage=VHDL等  
-tabsize=4, %  
-  showstringspaces=false,%不显示代码字符串中间的空格标记  
-  stringstyle=\ttfamily, % 代码字符串的特殊格式  
-  numbers=left,%左侧显示行号 往左靠,还可以为right，或none，即不加行号  
-  numberstyle={\color[RGB]{0,192,192}\tiny} ,%设置行号的大小，大小有tiny,scriptsize,footnotesize,small,normalsize,large等  
-  numbersep=8pt,  %设置行号与代码的距离，默认是5pt  
-  basicstyle=\footnotesize, % 这句设置代码的大小  
-  showspaces=false, %  
-  flexiblecolumns=true, %  
-  breaklines=true, %对过长的代码自动换行  
-  showstringspaces=false, %不显示字符串中的空格  
-  escapeinside='',  %在``里显示中文  
-  framextopmargin=2pt,framexbottommargin=2pt,abovecaptionskip=-3pt,belowcaptionskip=3pt,  
-  xleftmargin=2em,xrightmargin=2em, % 设定listing左右的空白  
-  texcl=true,  
-  % 设定中文冲突，断行，列模式，数学环境输入，listing数字的样式  
-  extendedchars=false,columns=flexible,mathescape=false  
-}  
+\lstset{%
+language={C},       %language为Verilog，还有{[Visual]C++}
+%alsolanguage=[ANSI]C,      %可以添加很多个alsolanguage,如alsolanguage=matlab,alsolanguage=VHDL等
+tabsize=4, %
+  showstringspaces=false,%不显示代码字符串中间的空格标记
+  stringstyle=\ttfamily, % 代码字符串的特殊格式
+  numbers=left,%左侧显示行号 往左靠,还可以为right，或none，即不加行号
+  numberstyle={\color[RGB]{0,192,192}\tiny} ,%设置行号的大小，大小有tiny,scriptsize,footnotesize,small,normalsize,large等
+  numbersep=8pt,  %设置行号与代码的距离，默认是5pt
+  basicstyle=\footnotesize, % 这句设置代码的大小
+  showspaces=false, %
+  flexiblecolumns=true, %
+  breaklines=true, %对过长的代码自动换行
+  showstringspaces=false, %不显示字符串中的空格
+  escapeinside='',  %在``里显示中文
+  framextopmargin=2pt,framexbottommargin=2pt,abovecaptionskip=-3pt,belowcaptionskip=3pt,
+  xleftmargin=2em,xrightmargin=2em, % 设定listing左右的空白
+  texcl=true,
+  % 设定中文冲突，断行，列模式，数学环境输入，listing数字的样式
+  extendedchars=false,columns=flexible,mathescape=false
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %页眉页脚
 \pagestyle{fancy}
-\lhead{\footnotesize 实验二：定时器和计数器}
+\lhead{\footnotesize 实验四：模数和数模转换}
 \chead{}
 \rhead{\footnotesize \leftmark}
 \lfoot{}
@@ -35,9 +35,9 @@ tabsize=4, %
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %标题页
-\title{\bf\LARGE 实验二 \ \ 定时器和计数器}
-\author{杨凯欣 \ \ \ \ 1500012805}
-\date{2018年3月21日}
+\title{\bf\LARGE 实验四 \ \ 模数和数模转换}
+\author{杨庆龙 \ \ \ \ 1500012956}
+\date{2018年4月11日}
 \setcounter{page}{0}
 \renewcommand \contentsname{\Large 目录}
 \renewcommand \today{\number \year 年 \number \month 月 \number \day 日}
@@ -51,571 +51,136 @@ tabsize=4, %
 \begin{spacing}{1.3}  %段间距，公式行间距
 \newgeometry{top=5cm}
 \maketitle
-\tableofcontents
-\thispagestyle{empty}
-\restoregeometry
-\newpage
-
-%%%%%%%%%%%%%%%
 \section{实验目的}
-
-1. 掌握使用C语言进行单片机程序开发的方法，熟悉开发环境；
-
-2. 熟悉单片机C语言开发中的特殊语法；
-
-3. 了解单片机中的定时器和计数器；
-
-4. 了解单片机的中断系统原理和编程方法。
-
-%%%%%%%%%%%%%%
-\section{实验原理}
-
-\subsection{C51简介}
-
-对于MCS-51系列的单片机，支持它的C语言叫做C51，和标准C有一定区别，主要体现在数据类型和数据存储结构上。
-
-\subsubsection{数据类型}
-
-特殊的数据类型有：
-
-\begin{enumerate}
-\item 位类型bit
-
-使用位类型可以方便进行逻辑操作，位类型可以定义一个位变量，由编译器在内部RAM区20H-2FH的128个位地址中分配一个位地址。位类型不能定义指针和数组。
-
-\item 特殊功能寄存器sfr
-
-必须采用直接寻址的方式来访问，离散地分布在80H-FFH的地址空间里。sfr可对特殊功能寄存器进行定义，sfr型数据占用一个字节，取值范围0-255。
-
-\item 16位特殊功能寄存器sfr16
-
-如DPTR就可以用sfr16定义，sfr16型数据占用两个字节，取值范围0-65535。
-
-\item 可寻址位类型sbit
-
-sbit可对内部RAM的位寻址空间及特殊功能寄存器的可寻址位进行定义。
-
-eg：sbit flag = P1.0，表示将P1.0这条I/O口线定义为flag变量。
-
-\end{enumerate}
-
-只有unsigned char和bit类型是8051 CPU可以直接用汇编语言支持的数据类型，它们的操作效率更高。其他数据类型都有多条汇编指令组合操作，需占用大量的程序存储空间和数据存储器资源。C51还支持结构类型和联合类型等复杂类型数据。
-
-\subsubsection{指定变量存储区域的关键字}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{c|c}
-\toprule
-data & 直接寻址片内RAM，00F-7FH空间，速度最快 \\
-\midrule
-bdata & 可位寻址片内RAM，20H-2FH空间，容许位和字节混合访问 \\
-\midrule
-idata & 间接访问片内00H-FFH全部256个地址空间 \\
-\midrule
-pdata & 使用MOVX @Ri指令访问外部RAM分页的00H-FFH空间 \\
-\midrule
-xdata & 使用MOVX @DPTR访问外部RAM的0000H-FFFFH全部空间 \\
-\midrule
-code & 使用MOVC @A+DPTR访问程序存储器0000H-FFFFH全部空间 \\
-\midrule
-\_at\_ & 指定具体的存储位置，如unsigned int xdata a \_at\_ (0x500) \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsubsection{中断服务程序函数}
-
-为处理单片机中断C51提供了interrupt关键字，支持直接编写中断服务程序函数。函数定义的形式为：
-
-\begin{lstlisting}
-函数类型 函数名() [interrupt n] [using n]
-\end{lstlisting}
-
-函数类型一般定义为void。
-
-interrupt n是中断号，指示相应的中断源。C51编译器从code区的绝对地址8n+3处产生中断向量。n必须是常数，不允许使用表达式。
-
-using n是可选的，n为0-3的常数，指示选择4个寄存器组，即由PSW中RS0/RS1所指定的工作寄存器可以保存的4个位置。如果不使用using n，中断函数所有使用的公共寄存器都入栈（保护现场）。如果使用using n，切换的寄存器就不再入栈（因为使用了不同的寄存器组，因此不需要保护R0-R7）。
-
-编写中断函数时应注意的几个问题：
-
+%No Text Here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
-\item 中断函数没有返回值，因此必须是void类型；
-\item 中断函数不允许进行参数传递；
-\item 不允许直接调用中断函数；
-\item 中断函数对压栈和出栈的处理由编译器完成，无需人工管理；
-\item 需严格注意using n的使用，必须确保寄存器组的正确切换。
+	\item 了解模数和数模转换电路的原理和使用方法
+	\item 掌握MCS-51系列单片机中定时器和计数器的使用方法
+	\item 掌握使用示波器，信号源对单片机系统进行调试的方法
 \end{itemize}
+\vspace{3mm}
 
-\subsection{并行端口}
-
-C8051F020共支持64个数字输入输出接口，共组成8组8位的并行端口。其中P0、P1、P2和P3被称为低位端口（标准的MCS-51只支持4个端口），可以通过寄存器按字节或者按位访问；对应的P4、P5、P6、P7为高位端口，仅可以按字节访问。所有端口都可以配置成漏极开路输出或推挽输出。
-
-对P0-P7寄存器的读写可以实现对相应端口的输入和输出，另外部分端口还支持对其工作状态的设置。低位端口可以按位设置，例如P0MDOUT寄存器可以用来设置P0端口8个接口的输出模式，其中设置为1的位表示对应的接口为推挽方式输出，设置为0的位表示采用漏极开路的方式输出。但对于高位端口，只有一个P74OUT寄存器来设置端口的输出状态，只能按照4位每组的方式进行输出设置。
-
-\subsection{MCS-51单片机的中断系统}
-
-MCS-51单片机有5个中断源（2个外部中断源INT0和INT1，2个片内定时器/计数器溢出中断TF0和TF1，1个片内串行口的收/发中断RI）。C8051F020具有多达22个中断源。
-
-与中断有关的专用寄存器有中断允许寄存器IE、中断优先级控制寄存器IP、控制寄存器TCON等。其中有关定时器/计数器2的相关控制位是C8051F020扩展的。
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
-EA & & ET2 & ES & ET1 & EX1 & ET0 & EX0 \\
-\midrule
-总中断允许位 & & 定时器 /计数器2中断允许位 & 串行通信口中断允许位 & 定时器 /计数器1中断允许位 & 外部中断INT1中断允许位 & 定时器 /计数器0中断允许位 & 外部中断INT0中断允许位 \\
-\bottomrule
-\end{tabular}
-\caption{中断允许寄存器IE}
-\end{table}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
- & & PT2 & PS & PT1 & PX1 & PT0 & PX0 \\
-\midrule
- & & 定时器 /计数器2 & 串行口 & 定时器 /计数器1 & 外部中断1 & 定时器 /计数器0 & 外部中断0 \\
-\bottomrule
-\end{tabular}
-\caption{中断优先级控制寄存器IP}
-\end{table}
-
-MCS-51仅支持一级中断嵌套，靠IP寄存器可以将中断优先级分为高、低两级，他们遵从下面两条规则：
-1. 低优先级中断可被高优先级中断所中断，反之不能；
-2. 一种中断（不论哪个优先级）一旦得到响应，与它同级的中断不能再中断它。
-
-当同时收到几个同一优先级的中断请求时，取决于内部的查询顺序，相当于在每个优先级内还有另一辅助优先级结构，中断序号小的中断具有较高的优先级。
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
-TF1 & TR1 & TF0 & TR0 & IE1 & IT1 & IE0 & IT0 \\
-\midrule
-定时器 /计数器1溢出标志 & 定时器 /计数器1运行控制 & 定时器 /计数器0溢出标志 & 定时器 /计数器0运行控制 & 外部沿触发中断1请求标志 & 外部中断1触发类型控制 & 外部沿触发中断0请求标志 & 外部中断0触发类型控制 \\
-\midrule
-溢出时硬件置位申请中断，进入ISR后被硬件自动清除 & 软件，置位时启动定时器 /计数器1工作，清除时停止工作 & 同TF1 & 同TR1 & INT1引脚出现外部中断信号下降沿，硬件置位请求中断，进入ISR后被硬件自动清除 & 软件，置位下降沿触发，清除低电平触发 & 同IE1 & 同IT1 \\
-\bottomrule
-\end{tabular}
-\caption{控制寄存器TCON}
-\end{table}
-
-当单片机检测到中断事件发生并且相应的中断已经在控制寄存器中被允许，则PC指针跳转到中断所对应的入口地址执行那里的代码。中断入口一般是一个跳转指令，跳转到相应的中断处理程序运行。在中断程序最后，会执行IRET指定返回到中断前的地址继续运行。
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{1.8cm}<{\centering}|p{2.5cm}<{\centering}|p{2.8cm}<{\centering}|p{2.5cm}<{\centering}|p{2.8cm}<{\centering}|p{1.5cm}<{\centering}|}
-%\begin{tabular}{|c|c|c|c|c|c|}
-\toprule
-中断源 & 外部中断INT0 & 定时器/计数器T0 & 外部中断INT1 & 定时器/计数器T1 & 串行口 \\
-\midrule
-入口地址 & 0003H & 000BH & 0013H & 001BH & 0023H \\
-\bottomrule
-\end{tabular}
-\caption{中断入口地址(8n+3)}
-\end{table}
-
-\subsection{时钟和振荡器}
-
-C8051F020内部包含一个振荡器，当系统复位时，单片机首先使用内部的振荡器作为系统时钟（缺省工作频率为2MHz，用SYSCLK表示），而如果要使用其他的工作频率或者使用外部的晶体振荡器，都必须通过寄存器进行设置。
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{1.8cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{2cm}<{\centering}|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
-MSCLKE & & & IFRDY & CLKSL & IOSCEN & IFCN1 & IFCN0 \\
-\midrule
-时钟失效检测，100$\mu$s未检测到时钟信号时复位 & & & 检测内部振荡器是否工作在设置的频率下 & 选择系统使用的振荡器（1外部0内部） & 设置内部振荡器工作状态（1使用0禁止） & IFCN1-0设置内部振荡器工作频率 & 00:2MHz, 01:4MHz, 10:8MHz, 11:16MHz \\
-\bottomrule
-\end{tabular}
-\caption{OSCICN寄存器结构}
-\end{table}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{1.5cm}<{\centering}|p{2cm}<{\centering}|p{2cm}<{\centering}|p{2cm}<{\centering}|p{1cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|p{1.5cm}<{\centering}|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
-XTLVLD & XOSCMD2 & XOSCMD1 & XOSCMD0 & & XFCN2 & XFCN1 & XFCN0 \\
-\midrule
-外部晶体振荡器工作状态（1稳定0非稳定） & XOSCMD2-0设置外部振荡器的模式 & 00x:XTAL1接地（外部振荡器不工作）；01x:使用外部时钟源；10x:使用RC振荡器，二分频；11x:使用外部晶体振荡器 & 是否要进行二分频（对RC振荡器模式无效） & & XFCN2-0设置外部振荡器的频率范围 & 111表示频率大于6.7MHz & 其它设置参考数据手册 \\
-\bottomrule
-\end{tabular}
-\caption{OSCXCN寄存器结构}
-\end{table}
-
-\begin{lstlisting}
-void SYSCLK_Init (void){
-	int i;
-	OSCXCN = 0x67;                //启动外部晶振
-	for (i = 0; i < 256; i++);    //延时一段时间
-	while (!(OSCXCN & 0x80));     //等待振荡稳定
-	OSCICN = 0x88;                //使用外部振荡器
-}
-\end{lstlisting}
-
-\subsection{定时器和计数器}
-MCS-51系列单片机有两个定时器/计数器，在模式控制寄存器TMOD中各有一个控制位（C/T），分别用于控制定时器/计数器0和1是否工作在定时器方式还是计数器方式，当计数值发生溢出的时候会触发中断。
-
-1. 选择定时器工作方式时，计数输入是内部系统时钟，每个机器周期使寄存器的值加1；
-
-2. 选择计数器工作方式时，计数脉冲来自相应的外部输入引脚T0或T1，当输入信号由1跳变至0时，计数寄存器的值加1。
-
-除了可以选择定时器或计数器工作方式外，每个定时器/计数器还有4种操作模式，其中前三种模式对两者都是一样的，只有模式3对两者不同。
-
-1. 模式0：13位定时器/计数器，控制逻辑$TR_x \times (\overline{GATE}+INT_x)$
-
-2. 模式1：16位定时器/计数器，控制逻辑同模式0
-
-3. 模式2：把定时器寄存器TLx配置成一个可以自动重载的8位计数器
-
-4. 模式3：定时器/计数器1将保持原有的计数值；定时器/计数器0将使TL0和TH0成为两个互相独立的8位计数器。
-
-\begin{table}[H]
-\centering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{实验原理}
+\subsection{数模转换器}
+\subsubsection{控制}
+单片机系统中，有两个12位DAC和两个比较器，通过特殊功能寄存器DAC0CN实现控制,详见\ref{table_DAC0CN}
+\begin{table}[!htbp]
+  \centering
+  \caption{DAC0CN寄存器结构}
+  \label{table_DAC0CN}
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
-GATE & C/T & M1 & M0 & GATE & C/T & M1 & M0 \\
-\bottomrule
+  \hline
+  D7&D6&D5&D4&D3&D2&D1&D0\\
+    \hline
+  DAC0EN&&&DAC0MD1&DAC0MD0&DAC0DF2&DAC0DF1&DAC0DF0\\
+  \hline
 \end{tabular}
-\caption{TMOD寄存器}
 \end{table}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
-\toprule
-D7 & D6 & D5 & D4 & D3 & D2 & D1 & D0 \\
-\midrule
- & T4M & T2M & T1M & T0M & & & \\ 
-\bottomrule
-\end{tabular}
-\caption{CKCON寄存器}
+\begin{itemize}
+  \item DAC0EN:使能设置，0禁止，1允许
+  \item DAC0MD1-0:工作模式，00写入触发，01，10，11分别对应计数器3,4,2
+  \item DAC0DF2-0:数据格式，000:右对齐，001右对齐左移一位..1xx左对齐
+\end{itemize}
+\subsubsection{参考电压}
+单片机系统中，使用REF0CN寄存器进行参考电压控制，详见\ref{table_REF0CN}
+\begin{table}[!htbp]
+  \caption{REF0CN寄存器结构}
+  \label{table_REF0CN}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0\\
+      \hline
+    &&&AD0VRS&AD1VRS&TEMPE&BIASE&REFBE\\
+    \hline
+  \end{tabular}
 \end{table}
+\begin{itemize}
+  \item AD0VRS:ADC0的参考电压，0为VREF0，1为DAC0输出
+  \item AD1VRS:ADC1的参考电压，0为VREF1，1为AV+
+  \item TEMPE:内部温度传感器,0禁止，1允许
+  \item BIASE:偏置电压允许位，必须设为1
+  \item REFBE:内部参考电压允许位，0禁止，1允许
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{模数转换器}
+单片机内部有一个片内ADC0，一个9通道输入多路选择开关和可编程增益放大器，提供100ksps下的真12位进度。
+\subsubsection{多路选择器}
+使用AMX0SL寄存器选择输入情况，0-7对应AIN0-AIN7，其余为温度传感器
+\subsubsection{时钟设置}
+ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
+\begin{table}[!htbp]
+  \caption{ADC0CF寄存器结构}
+  \label{table_ADC0CF}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0\\
+      \hline
+    ADC0SC4&ADC0SC3&ADC0SC2&ADC0SC1&ADC0SC0&AMP0GN2&AMP0GN1&AMP0GN0\\
+    \hline
+  \end{tabular}
+\end{table}
+\begin{itemize}
+  \item ADC0SC:设置时钟频率为 $\frac{SYSCLK}{CLK_{SAR0}}-1$
+  \item AMP0GN:设置内部电压增益，000,001,010,011为1，2，4，8，10x为16，11x为0.5
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{定时器2}
+定时器2共有三种工作方式:带捕获的16位定时器/计数器模式，带自装载的16位定时器/计数器，串口0波特率发生器
+\begin{table}[!htbp]
+  \centering
+  \caption{T2CON寄存器结构}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0\\
+      \hline
+    TF2&EXF2&RCLK0&TCLK0&EXEN2&TR2&C/T2&CP/RL2\\
+    \hline
+  \end{tabular}
 
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=0.7\columnwidth]{1.png}
-%\caption{51存储空间}
-%\end{figure}
+\subsection{定时器3}
+定时器3仅可工作在自装载模式下
+\begin{table}[!htbp]
+  \centering
+  \caption{TMR3CN寄存器结构}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0\\
+      \hline
+    TF3&&&&&TR3&T3M&T3XCLK\\
+    \hline
+  \end{tabular}
 
-%%%%%%%%%%%%%%%%
-%\section{实验仪器与元器件}
-%\begin{itemize}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\item 信号发生器：Tektronix AFG3051C
-%\item 数字示波器：Tektronix TDS1012C-EDU
-%\item 电源：Suin SS3323
-%\item 数字万用表：KEITHLEY 2110
-%\item 电烙铁
-%\item 实验电路板
+\subsection{定时器4}
+定时器4和定时器2相同
+\begin{table}[!htbp]
+  \centering
+  \caption{TMR3CN寄存器结构}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0\\
+      \hline
+    TF3&&&&&TR3&T3M&T3XCLK\\
+    \hline
+  \end{tabular}
 
-%\end{itemize}
-%%%%%%%%%%%%%%%%%
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{实验内容}
 
-\subsection{控制LED闪烁}
-
-主板上的LED与CPU的P7端口最高位相连，通过控制P7的输出，可以让这个LED闪烁。
-
-调试过程中可以在反汇编窗口看到相应的汇编代码，通过对比可以更加深刻地了解单片机的工作原理。
-
-在工程设置中的Listing页，勾选C Compiler Listing中的Assembly Code选项，就可以在编译工程时生成的列表文件中包含生成的汇编代码。
-
-\begin{lstlisting}
-#include <C8051F020.h>
-void PORT_Init(void){
-	P74OUT = 0x80;  //10000000B, set P7.7 as push-pull output
-}
-
-//function 'Delay' to hold on the state
-void Delay(){
-	int i;
-	int j;
-	for (i = 0; i < 500; ++i)
-		for (j = 0; j < 180; ++j);
-	return;
-}
-
-void main(void){
-	WDTCN = 0xDE;
-	WDTCN = 0xAD;  //disable the watchdog
-
-	//initial
-	PORT_Init();
-
-	while(1){
-		P7 = 0x80;  //turn on LED
-		Delay();
-		P7 = 0x00;  //turn off LED
-		Delay();
-	}
-	return;
-}
-\end{lstlisting}
-
-
-\subsection{使用计数器延时}
-
-使用计数器0控制LED的闪烁频率为1Hz。为了保证闪烁频率的准确，要使用外部晶振。
-
-\begin{lstlisting}
-void PORT_Init(void){
-	P74OUT = 0x80;  //10000000B, set P7.7 as push-pull output
-	return;
-}
-
-void SYSCLK_Init(void){
-	int i;
-	OSCXCN = 0x67;  //the external oscillator is not stable; the frequency is more than 6.7MHz
-	for (i = 0; i < 256; i++);
-	while (!(OSCXCN & 0x80));
-	OSCICN = 0x88;
-	return;
-}
-
-void INTERRUPT_Init(void){
-	IE = IE | 0x82;  //IE = 10000010, enable counter0
-	IP = IP | 0x02;  //IP = 00000010, set interrupt of counter0 the priority
-	return;
-}
-
-void COUNTER_Init(void){
-	TMOD = TMOD | 0x02;  //set the counter0 in the mode 2
-	TH0 = 0x00;
-	TL0 = 0x00;
-}
-
-void main(void){
-	WDTCN = 0xDE;
-	WDTCN = 0xAD;  //disable the watchdog
-
-	//initial
-	PORT_Init();
-	SYSCLK_Init();
-	INTERRUPT_Init();
-	COUTER_Init();
-
-	TR0 = 1;  //turn on the counter
-	P7 = 0x80;  //output HIGH voltage
-	while(1);
-	return;
-}
-
-void COUNTER_ISR (void) interrupt 1{
-	static int count;  //total of interruption times
-	count++;
-	if (count > 3600){
-		count = 0;
-		P7 = ~P7;
-	}
-}
-\end{lstlisting}
-
-\subsection{控制LED亮度}
-
-PWM是脉冲宽度调制技术，通过控制输出方波信号的占空比，来达到输出功率的变化，从而很方便地采用数字输出来进行模拟电路的控制，经常用来控制发光器件的亮度和电机的转速等等。
-
-\begin{lstlisting}
-void PORT_Init(void){
-	P74OUT = 0x80;  //10000000B, set P7.7 as push-pull output
-	return;
-}
-
-void SYSCLK_Init(void){
-	int i;
-	OSCXCN = 0x67;  //the external oscillator is not stable; the frequency is more than 6.7MHz
-	for (i = 0; i < 256; i++);
-	while (!(OSCXCN & 0x80));
-	OSCICN = 0x88;
-	return;
-}
-
-void INTERRUPT_Init(void){
-	IE = IE | 0x82;  //IE = 10000010, enable counter0
-	IP = IP | 0x02;  //IP = 00000010, set interrupt of counter0 the priority
-	return;
-}
-
-void COUNTER_Init(void){
-	TMOD = TMOD | 0x02;  //set the counter0 in the mode 2
-	TH0 = 0x00;
-	TL0 = 0x00;
-}
-
-void main(void){
-	WDTCN = 0xDE;
-	WDTCN = 0xAD;  //disable the watchdog
-
-	//initial
-	PORT_Init();
-	SYSCLK_Init();
-	INTERRUPT_Init();
-	COUTER_Init();
-
-	TR0 = 1;  //turn on the counter
-	P7 = 0x80;  //output HIGH voltage
-	while(1);
-	return;
-}
-
-
-#define period_init 24
-
-void COUNTER_ISR (void) interrupt 1{
-	static int count;  //total of interruption times
-	static signed int step = -1;
-	static int last_time = 0;  //increase the period of amplitude's change
-	static int flag_p_n = 1;  //sign now is positive period or negative period
-	static signed int period_p = period_init / 2;  
-	//the length of positive period, can use it to change duty cycle
-	static signed int period = period_init / 2;  
-	//threshold that sign the time to flip output
-	count++;
-	if (count > period){
-		last_time++;
-		if (flag_p_n == 1){
-			period = period_init - period_p;
-			flag_p_n = 0;
-		}
-		else{
-			period = period_p;
-			flag_p_n = 1;
-		}						
-		if (last_time == 50){						 
-			last_time = 0;
-			period_p += step;
-		}
-		if (period_p <= 0)
-			step = 1;
-		else if(period_p > period_init / 2)
-			step = -1; 
-		count = 0;
-		P7 = ~P7;
-	}
-}
-\end{lstlisting}
-
-\section{思考题}
-
-1. 如何估算C代码中Delay函数的延时？
-
-机器执行单条基本指令需要的机器周期是时钟周期的12倍，因而在Delay函数中，估算公式为：
-
-$$t_D = \frac{1}{F_{CPU}} * I * J = \frac{12}{F_{crystal}} * I * J$$
-
-其中I表示第一重循环次数，J表示第二重循环次数。如果采用默认振荡器$F_{crystal}$ = 2MHz，求得：
-$$t_D = \frac{12}{22.1184MHz} * 500 * 100 = 300 ms$$
-
-2. 在PWM输出的实验中，如果方波频率过低（比如低于20Hz）会有什么现象发生？
-
-会观察到光强不稳定，以一定的频率抖动。
-
-
-\section{心得体会}
-\begin{enumerate}
-\item 最后一段程序中的中断函数设计得过于复杂，使用太多变量且可读性差，可以简化为：
-\begin{lstlisting}
-#define period 24
-
-void COUNTER_ISR (void) interrupt 1{
-	static int count;
-	static int pos_period = period / 2;
-	static int step = -1;
-	count++;
-	if (count % 1200 == 0)  //change the duty cycle
-		pos_period += step; 
-	if (count >= 2 * 12 * 1200){  
-		//pos\_period == 12 and begin to decrease the pos\_period 
-		count = 0;
-		step == -1;
-	}
-	if (count == 14400)  
-		//pos\_period == 0 and begin to increase the pos\_period
-		step = 1;
-	if (count % period == 0)  
-		//turn on the LED
-		P7 = 0x80;
-	else if ((pos_period == 0) || ((count % period) % pos_period == 0))  
-		//turn off the LED
-		P7 = 0x00;		
-}
-\end{lstlisting}
-
-\item 设置P7的最高位要用\verb|P7 = 0x80|，不能使用\verb|P7.7 = 1|，会报语法错。
-
-\item 推挽输出才有驱动能力。
-
-\item while死循环反汇编结果：使用SJMP指令跳转回循环起始命令处。
-
-\item C8051只有两个中断优先级，同级序号小的优先级高。
-
-\item 自装载的工作模式使得中断发生后计数器可以重新计数，保证每次时间间隔基本不变。
-
-\end{enumerate}
-%\begin{figure}[H]
-%\begin{minipage}[t]{0.5\linewidth}
-%\centering
-%\includegraphics[width=0.9\columnwidth]{7.png}
-%\caption{}
-%\end{minipage}
-%\hfill
-%\begin{minipage}[t]{0.5\linewidth}
-%\centering
-%\includegraphics[width=0.9\columnwidth]{8.png}
-%\caption{}
-%\end{minipage}
-%\end{figure}
+\subsection{模数数模联调}
+\subsubsection{转换输出}
+模数转换从信号源输入，将转换结果再通过数模转换输出，输出结果用示波器查看。
+\subsubsection{音频回放}
+音谱输入已经接到AIN1上(使用AMX0SL选择)，音谱输出用DAC1驱动(低位0xD5,高位0xD6)。
 
 \end{spacing}
-
-\end{document} 
-
-
-
-推挽输出才有驱动能力，后面会有驱动外存
-
-中断：处理外部事件效率最高，硬件实现，每个时钟周期检测
-中断优先级，C8051只有两个优先级，同级序号小的优先级高
-全局中断要打开
-中断允许寄存器的位是否允许
-复位时所有中断都被禁止
-寄存器相应的位都有变量对应，可直接按位寻址
-串口中断：要进去看看是什么事件，要看中断标志
-有些中断标志是自动清除的，还有一些是手动清除的，在中断处理中要有清除操作
-
-时钟频率影响指令周期，计时器计时
-早期8051外接晶振，但有故障概率
-现在的很多都自带时钟，RC振荡电路，加电就可以工作，提高系统可靠性
-RC振荡器大约2MHz，缺点：频率不太高，误差严重
-有严格计时要求就需要使用外部晶振，显式地设置
-
-for(i = 0) 延时一段时间作用不明，有可能是刚刚启动晶振，XTLVLD不明确
-
-晶振是22MHz左右，能分出一些标准频率（常用波特率115200）
-
-后续实验有可能用到前面的实验代码，记得保留
-
-循环延时会占用CPU，不能做其他事情；同时如果中间发生中断，时长会变长
-
-死循环可以保证程序确定的稳定执行状态，否则程序会一条指令一条指令不断地执行下去
-
-看一下while死循环反汇编结果：使用SJMP跳转回循环起始命令处
-
-自装载使得中断发生后重新计数，每次间隔基本不变
+\end{document}

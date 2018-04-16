@@ -1,0 +1,43 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  12 APR 2018 18:18
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**kvmacros.tex
+(/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/kvmacros.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+
+Macros for typesetting Karnaugh maps and Veitch charts
+Version of January 7th, 2002
+by Andreas W. Wieland, awwieland@gmx.de
+
+\kvunitlength=\dimen102
+\kvrecursiondepth=\count79
+\kvindexcounter=\count80
+\kvxsize=\count81
+\kvysize=\count82
+\kvvarno=\count83
+\kvxvarno=\count84
+\kvyvarno=\count85
+\kvmarkstart=\count86
+\kvmarklength=\count87
+\kvmarknum=\count88
+\kvmarkmove=\count89
+\kvsavebox=\box26
+)
+! Emergency stop.
+<*> kvmacros.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 41 strings out of 493029
+ 949 string characters out of 6136234
+ 53063 words of memory out of 5000000
+ 3676 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 7i,0n,12p,96b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -3,10 +3,12 @@ index_short = linspace(0,15,16);
 index_long = linspace(0,31,32);
 index_src = linspace(0,26,27);
 data_src = x_n(index_src);
-fft_short = fftshift(fft(data_src, 16));
-fft_long = fftshift(fft(data_src, 32));
-ifft_short = (ifft(fft_short));
-ifft_long = (ifft(fft_long));
+%fft_short = fftshift(fft(data_src, 16));
+%fft_long = fftshift(fft(data_src, 32));
+fft_short = interp1(linspace(0,26,1024),fftshift(fft(data_src,1024)),linspace(0,26,16));
+fft_long = interp1(linspace(0,26,1024),fftshift(fft(data_src,1024)),linspace(0,26,32));
+ifft_short = interp1(linspace(0,26,1024),ifft(fft_short,1024),linspace(0,26,27));
+ifft_long = interp1(linspace(0,26,1024),ifft(fft_long,1024),linspace(0,26,27));
 %%%%
 subplot(2,2,1);
 stem(index_short, abs(fft_short));
@@ -21,7 +23,8 @@ ylabel('Amp');
 title('32点fft幅度谱');
 %%%%
 subplot(2,2,3);
-stem(index_short, abs(ifft_short),'b');
+%stem(index_short, abs(ifft_short),'b');
+stem(index_src, abs(ifft_short));
 hold on;
 %stem(index_src, data_src, 'r');
 xlabel('k');
@@ -31,7 +34,8 @@ title('16点还原图');
 %legend('还原信号','原始信号');
 %%%%
 subplot(2,2,4);
-stem(index_long, abs(ifft_long));
+stem(index_src, abs(ifft_long));
+%stem(index_long, abs(ifft_long));
 hold on;
 %stem(index_src, data_src, 'r');
 xlabel('k');
