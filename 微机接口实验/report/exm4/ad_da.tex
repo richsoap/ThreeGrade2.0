@@ -173,154 +173,16 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
 \subsubsection{音频回放}
 音谱输入已经接到AIN1上(使用AMX0SL选择)，音谱输出用DAC1驱动(低位0xD5,高位0xD6)。
 
+\section{思考题}
+\begin{itemize}
+	\item CPU在每个程序周期都会检查中断寄存器，当发现中断时，会将目前运行的程序停止，并保护现场。之后依据中断编号到中断向量表中读取相应的中断处理程序地址，之后跳转到相应地址，进行中断处理。处理结束后，恢复现场，继续处理原程序。\\
+	使用汇编语言时，先写好中断处理程序，再将该处理程序的起始地址填入中断向量表即可。跳转到中断1的代码如下\\
+	ORG 03H\\
+	JMP INT1
+	\item 因为ADC和DAC要面对不同的采样的情况，所以相应地也需要多种触发方式，以满足具体使用环境的要求。使用计时器溢出触发的好处有两点，一个是两次采样的时间间隔与CPU运行状态无关，采样频率稳定。另一个好处是使用计数器进行采样间隔调整可以实现高精度采样频率。
+	\item C51中的sfr16使用操作两个8bit特殊功能寄存器的方法实现对一个16bit特殊功能寄存器的操作。指定的变量地址为16位中的低8位起始地址，读操作时先读低字节，再读高字节，写操作时先写高字节，后写低字节。
+\end{itemize}
+
 \end{CJK}
 
 \end{document} % DONE WITH DOCUMENT!
-
-
-%%%%%%%%%%
-PERSONAL FAVORITE LAB WRITE-UP STRUCTURE
-%%%%%%%%%%
-\section{Introduction}
-	% No Text Here
-	\subsection{Purpose}
-		% Lab objective
-	\subsection{Equipment}
-		% Any and all equipment used (specific!)
-	\subsection{Procedure}
-		% Overview of the procedure taken (not-so-specific!)
-\newpage
-\section{Schematic Diagrams}
-	% Any schematics, screenshots, block
-   % diagrams used.  Possibly photos or
-	% images could go here as well.
-\newpage
-\section{Experiment Data}
-	% Depending on lab, program code would be
-	% included here without the Estimated and
-	% Actual Results.
-	\subsection{Estimated Results}
-		% Calculated. What it should be.
-	\subsection{Actual Results}
-		% Measured.  What it actually was.
-\newpage
-\section{Discussion \& Conclusion}
-	% 3 Paragraphs:
-		% Restate the objective of the lab
-		% Discuss personal trials, errors, and difficulties
-		% Conclude the lab
-
-
-%%%%%%%%%%%%%%%%
-COMMON COMMANDS:
-%%%%%%%%%%%%%%%%
-% IMAGES
-begin{figure}[H]
-   \begin{center}
-      \includegraphics[width=0.6\textwidth]{RTL_SCHEM.png}
-   \end{center}
-\caption{A screenshot of the RTL Schematics produced from the Verilog code.}
-\label{RTL}
-\end{figure}
-
-% SUBFIGURES IMAGES
-\begin{figure}[H]
-  \centering
-  \subfloat[LED4 Period]{\label{fig:Per4}\includegraphics[width=0.4\textwidth]{period_led4.png}} \\
-  \subfloat[LED5 Period]{\label{fig:Per5}\includegraphics[width=0.4\textwidth]{period_led5.png}}
-  \subfloat[LED6 Period]{\label{fig:Per6}\includegraphics[width=0.4\textwidth]{period_led6.png}}
-  \caption{Period of LED blink rate captured by osciliscope.}
-  \label{fig:oscil}
-\end{figure}
-
-% INSERT SOURCE CODE
-\lstset{language=Verilog, tabsize=3, backgroundcolor=\color{mygrey}, basicstyle=\small, commentstyle=\color{BrickRed}}
-\lstinputlisting{MODULE.v}
-
-% TEXT TABLE
-\begin{table}
-\begin{center}
-\begin{tabular}{|l|c|c|l|}
-	x & x & x & x \\ \hline
-	x & x & x & x \\
-	x & x & x & x \\ \hline
-\end{tabular}
-\caption{Caption}
-\label{label}
-\end{center}
-\end{table}
-
-% MATHMATICAL ENVIRONMENT
-$ 8 = 2 \times 4 $
-
-% CENTERED FORMULA
-\[  \]
-
-% NUMBERED EQUATION
-\begin{equation}
-
-\end{equation}
-
-% ARRAY OF EQUATIONS (The splat supresses the numbering)
-\begin{align*}
-
-\end{align*}
-
-% NUMBERED ARRAY OF EQUATIONS
-\begin{align}
-
-\end{align}
-
-% ACCENTS
-\dot{x} % dot
-\ddot{x} % double dot
-\bar{x} % bar
-\tilde{x} % tilde
-\vec{x} % vector
-\hat{x} % hat
-\acute{x} % acute
-\grave{x} % grave
-\breve{x} % breve
-\check{x} % dot (cowboy hat)
-
-% FONTS
-\mathrm{text} % roman
-\mathsf{text} % sans serif
-\mathtt{text} % Typewriter
-\mathbb{text} % Blackboard bold
-\mathcal{text} % Caligraphy
-\mathfrak{text} % Fraktur
-
-\textbf{text} % bold
-\textit{text} % italic
-\textsl{text} % slanted
-\textsc{text} % small caps
-\texttt{text} % typewriter
-\underline{text} % underline
-\emph{text} % emphasized
-
-\begin{tiny}text\end{tiny} % Tiny
-\begin{scriptsize}text\end{scriptsize} % Script Size
-\begin{footnotesize}text\end{footnotesize} % Footnote Size
-\begin{small}text\end{small} % Small
-\begin{normalsize}text\end{normalsize} % Normal Size
-\begin{large}text\end{large} % Large
-\begin{Large}text\end{Large} % Larger
-\begin{LARGE}text\end{LARGE} % Very Large
-\begin{huge}text\end{huge}   % Huge
-\begin{Huge}text\end{Huge}   % Very Huge
-
-
-% GENERATE TABLE OF CONTENTS AND/OR TABLE OF FIGURES
-% These seem to have some issues with the "revtex4" document class.  To use, change
-% the very first line of this document to "article" like this:
-% \documentclass[aps,letterpaper,10pt]{article}
-\tableofcontents
-\listoffigures
-\listoftables
-
-% INCLUDE A HYPERLINK OR URL
-\url{http://www.derekhildreth.com}
-\href{http://www.derekhildreth.com}{Derek Hildreth's Website}
-
-% FOR MORE, REFER TO THE "LINUX CHEAT SHEET.PDF" FILE INCLUDED!

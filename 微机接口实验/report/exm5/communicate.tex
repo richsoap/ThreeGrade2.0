@@ -1,0 +1,48 @@
+\input{../common_header.tex}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+% Remember to fill this section out for each
+% lab write-up.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\labno}{04}
+\newcommand{\labtitle}{基于单片机的串行通信}
+\newcommand{\authorname}{杨庆龙}
+\newcommand{\idnumber}{1500012956}
+\newcommand{\labdate}{2018.4.18}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}  % START THE DOCUMENT!
+
+\begin{CJK}
+
+% TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% If you'd like to change the content of this,
+% do it in the "TITLE PAGE CONTENT" directly above
+% this message
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+\begin{center}
+{\LARGE \textsc{实验 No. \labno:} \\ \vspace{4pt}}
+{\Large \textsc{\labtitle} \\ \vspace{4pt}}
+\rule[13pt]{\textwidth}{1pt} \\ \vspace{150pt}
+{\large 实验人: \authorname \\ \vspace{10pt}
+学号: \idnumber \\ \vspace{10pt}
+实验日期: \labdate}
+\end{center}
+\end{titlepage}
+% END TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{section name}
+
+\end{CJK}
+
+\end{document} % DONE WITH DOCUMENT!
+
+\section{思考题}
+\begin{itemize}
+	\item CPU在每个程序周期都会检查中断寄存器，当发现中断时，会将目前运行的程序停止，并保护现场。之后依据中断编号到中断向量表中读取相应的中断处理程序地址，之后跳转到相应地址，进行中断处理。处理结束后，恢复现场，继续处理原程序。\\
+	使用汇编语言时，先写好中断处理程序，再将该处理程序的起始地址填入中断向量表即可。跳转到中断1的代码如下\\
+	ORG 03H\\
+	JMP INT1
+	\item 因为ADC和DAC要面对不同的采样的情况，所以相应地也需要多种触发方式，以满足具体使用环境的要求。使用计时器溢出触发的好处有两点，一个是两次采样的时间间隔与CPU运行状态无关，采样频率稳定。另一个好处是使用计数器进行采样间隔调整可以实现高精度采样频率。
+	\item C51中的sfr16使用操作两个8bit特殊功能寄存器的方法实现对一个16bit特殊功能寄存器的操作。指定的变量地址为16位中的低8位起始地址，读操作时先读低字节，再读高字节，写操作时先写高字节，后写低字节。
+\end{itemize}
