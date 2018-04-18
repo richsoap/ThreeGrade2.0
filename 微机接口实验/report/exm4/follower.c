@@ -1,9 +1,6 @@
 #include <C8051F020.h>
-#include "../include/time.h"
-#include "../include/adc.h"
-#ifndef SYSCLK
-#define SYSCLK 22118400
-#endif
+#include "../../includes/time.h"
+#include "../../includes/adc.h"
 #define SAMPLERATE 10000
 
 unsigned adc_result;
@@ -11,6 +8,7 @@ unsigned adc_result;
 void main(void) {
   WDTCN = 0xDE;
   WDTCN = 0xAD;
+  adc_result = 0x60;
   sysclk_init();
   dac0_init();
   adc0_init(SYSCLK/2500000);
@@ -22,10 +20,20 @@ void main(void) {
 }
 
 void timer4_int(void) interrupt 16 {
+	int i;
+	i = 0;
+	i ++;
   DAC0 = adc_result;
   T4CON &= ~0x80;
 }
 
-void timer3_int(void) interrupt 15 {
+void adc_int(void) interrupt 15 {
+	int i;
+	i = 0;
+	i ++;
+	AD0INT = 0;
     adc_result = ADC0;
-}
+} 
+
+
+

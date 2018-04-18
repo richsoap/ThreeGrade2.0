@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1523528377 "Lab_Template_Example.tex" "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.pdf" "Lab_Template_Example" 1523528378
+["pdflatex"] 1523970274 "Lab_Template_Example.tex" "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.pdf" "Lab_Template_Example" 1523970274
   "/etc/texmf/web2c/texmf.cnf" 1522218669 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.aux" 1523528377 3559 19bf3b6e13361a3b2edb8cb1d8964eff ""
+  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.aux" 1523970274 3559 19bf3b6e13361a3b2edb8cb1d8964eff ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -104,8 +104,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1522218697 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1522218705 3854767 1b663ba907a3ef171d9866665dd102ca ""
-  "Lab_Template_Example.aux" 1523528377 3559 19bf3b6e13361a3b2edb8cb1d8964eff ""
-  "Lab_Template_Example.out" 1523528377 549 183e54a5623820d911ec7af489b496ae ""
+  "Lab_Template_Example.aux" 1523970274 3559 19bf3b6e13361a3b2edb8cb1d8964eff ""
+  "Lab_Template_Example.out" 1523970274 549 183e54a5623820d911ec7af489b496ae ""
   "Lab_Template_Example.tex" 1523421382 20699 7c465d4b454b668badc66ee05c982bbd ""
   "code.c" 1523421382 2407 ee3c69cf4a1719a0c2ff5e48ffca8698 ""
   "graph.png" 1523421382 6368 c21e9c61a33e3cd914170d45d7f64720 ""
@@ -114,9 +114,9 @@
   "period_led5.png" 1523421382 26476 40ef1e143aa1fbcdabfa64d8d375211b ""
   "period_led6.png" 1523421382 26530 ead2d956830eb7b23a39594ae915131f ""
   (generated)
-  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.log"
   "Lab_Template_Example.out"
-  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.pdf"
-  "Lab_Template_Example.log"
+  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.log"
   "Lab_Template_Example.aux"
+  "Lab_Template_Example.log"
   "Lab_Template_Example.pdf"
+  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/latex/Lab_Write_Up_Template/Lab_Template/Lab_Template_Example.pdf"

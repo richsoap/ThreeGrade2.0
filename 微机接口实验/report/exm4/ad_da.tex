@@ -1,42 +1,22 @@
-\input{../common_header.tex}
+\documentclass{article}
 % TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
 % Remember to fill this section out for each
 % lab write-up.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\labno}{04}
-\newcommand{\labtitle}{模数与数模转换}
-\newcommand{\authorname}{杨庆龙}
-\newcommand{\idnumber}{1500012956}
-\newcommand{\labdate}{2018.4.11}
+\usepackage{CJK}
+\usepackage{listings} % For source code
+\usepackage{geometry}
+%\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
 % END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}  % START THE DOCUMENT!
 
-\begin{CJK}
-
-% TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% If you'd like to change the content of this,
-% do it in the "TITLE PAGE CONTENT" directly above
-% this message
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{titlepage}
-\begin{center}
-{\LARGE \textsc{实验 No. \labno:} \\ \vspace{4pt}}
-{\Large \textsc{\labtitle} \\ \vspace{4pt}}
-\rule[13pt]{\textwidth}{1pt} \\ \vspace{150pt}
-{\large 实验人: \authorname \\ \vspace{10pt}
-学号: \idnumber \\ \vspace{10pt}
-实验日期: \labdate}
-\end{center}
-\end{titlepage}
-% END TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{CJK}{UTF8}{gkai}
+\title{实验四 模数和数模转换}
+\author{杨庆龙 \\1500012956}
+\date{2018.4.11}
+\maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{实验目的}
 %No Text Here
@@ -61,7 +41,9 @@
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
   \hline
   D7&D6&D5&D4&D3&D2&D1&D0\\
+	  \hline
   DAC0EN&&&DAC0MD1&DAC0MD0&DAC0DF2&DAC0DF1&DAC0DF0\\
+	  \hline
 \end{tabular}
 \end{table}
 \begin{itemize}
@@ -77,7 +59,9 @@
   \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
     D7&D6&D5&D4&D3&D2&D1&D0\\
+		  \hline
     &&&AD0VRS&AD1VRS&TEMPE&BIASE&REFBE\\
+		  \hline
     \hline
   \end{tabular}
 \end{table}
@@ -101,7 +85,9 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
   \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
     D7&D6&D5&D4&D3&D2&D1&D0\\
+		  \hline
     ADC0SC4&ADC0SC3&ADC0SC2&ADC0SC1&ADC0SC0&AMP0GN2&AMP0GN1&AMP0GN0\\
+		  \hline
     \hline
   \end{tabular}
 \end{table}
@@ -118,7 +104,9 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
   \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
     D7&D6&D5&D4&D3&D2&D1&D0\\
+		  \hline
     TF2&EXF2&RCLK0&TCLK0&EXEN2&TR2&C/T2&CP/RL2\\
+		  \hline
     \hline
   \end{tabular}
 
@@ -133,6 +121,7 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
   \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
     D7&D6&D5&D4&D3&D2&D1&D0\\
+		  \hline
     TF3&&&&&TR3&T3M&T3XCLK\\
     \hline
   \end{tabular}
@@ -148,7 +137,9 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
   \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
     D7&D6&D5&D4&D3&D2&D1&D0\\
+		  \hline
     TF3&&&&&TR3&T3M&T3XCLK\\
+		  \hline
     \hline
   \end{tabular}
 
@@ -156,22 +147,18 @@ ADC0使用ADC0CF寄存器设置SAR的时钟，详见\ref{table_ADC0CF}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{实验内容}
 \subsection{数模转换}
-使用DAC输出三角波，用示波器验证输入信号的频率与幅度，探头接TP_DAC,地线接TP_AGND.参考程序如下。
-  \vspace{5mm}
+%DAC输出三角波，用示波器验证输入信号的频率与幅度，探头接TP_DAC,地线接TP_AGND.参考程序如下。
 	\lstinputlisting{dac.c}
-	\vspace{3mm}
-
 \subsection{模数转换}
 使用ADC进行模数转换，并将结果输出到数码管显示，参考程序如下。
-	\vspace{5mm}
-	\lisinputlisting{adc.c}
-	\vspace{3mm}
-
+	\lstinputlisting{adc.c}
 \subsection{模数数模联调}
 \subsubsection{转换输出}
 模数转换从信号源输入，将转换结果再通过数模转换输出，输出结果用示波器查看。
+	\lstinputlisting{follower.c}
 \subsubsection{音频回放}
 音谱输入已经接到AIN1上(使用AMX0SL选择)，音谱输出用DAC1驱动(低位0xD5,高位0xD6)。
+\lstinputlisting{recoder.c}
 
 \section{思考题}
 \begin{itemize}
