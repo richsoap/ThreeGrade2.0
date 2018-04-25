@@ -3,6 +3,18 @@
   <head>
       <meta charset="utf-8" />
       <title>scan</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    extensions: [],
+    TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+    },
+    showMathMenu: false
+  });
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+</script>
       <style>body { padding: 0; margin: 0; }
 .markdown-preview-plus-view:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
 .markdown-preview-plus-view:not([data-use-github-style]) > :first-child { margin-top: 0px; }
@@ -27,8 +39,6 @@
 .markdown-preview-plus-view:not([data-use-github-style]) pre, .markdown-preview-plus-view:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
 .markdown-preview-plus-view:not([data-use-github-style]) pre, .markdown-preview-plus-view:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
 .markdown-preview-plus-view:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
-.markdown-preview-plus-view:not([data-use-github-style]) ul.contains-task-list li.task-list-item { position: relative; list-style-type: none; }
-.markdown-preview-plus-view:not([data-use-github-style]) ul.contains-task-list li.task-list-item input.task-list-item-checkbox { position: absolute; transform: translateX(-100%); width: 30px; }
 .markdown-preview-plus-view[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: auto; }
 .markdown-preview-plus-view[data-use-github-style] > :first-child { margin-top: 0px !important; }
 .markdown-preview-plus-view[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
@@ -86,7 +96,7 @@
 .markdown-preview-plus-view[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
 .markdown-preview-plus-view[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
 .markdown-preview-plus-view[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
-.markdown-preview-plus-view[data-use-github-style] code, .markdown-preview-plus-view[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
+.markdown-preview-plus-view[data-use-github-style] code, .markdown-preview-plus-view[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.0392157); border-radius: 3px; }
 .markdown-preview-plus-view[data-use-github-style] code::before, .markdown-preview-plus-view[data-use-github-style] tt::before, .markdown-preview-plus-view[data-use-github-style] code::after, .markdown-preview-plus-view[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
 .markdown-preview-plus-view[data-use-github-style] code br, .markdown-preview-plus-view[data-use-github-style] tt br { display: none; }
 .markdown-preview-plus-view[data-use-github-style] del code { text-decoration: inherit; }
@@ -99,10 +109,11 @@
 .markdown-preview-plus-view[data-use-github-style] pre code::before, .markdown-preview-plus-view[data-use-github-style] pre tt::before, .markdown-preview-plus-view[data-use-github-style] pre code::after, .markdown-preview-plus-view[data-use-github-style] pre tt::after { content: normal; }
 .markdown-preview-plus-view[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
 .markdown-preview-plus-view[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview-plus-view[data-use-github-style] h1, .markdown-preview-plus-view[data-use-github-style] h6 { text-align: center; }
+.markdown-preview-plus-view[data-use-github-style] img { text-align: center; width: auto; height: auto; max-width: 100%; max-height: 100%; }
 .markdown-preview-plus-view[data-use-github-style] pre, .markdown-preview-plus-view[data-use-github-style] code { color: inherit; }
+.markdown-preview-plus-view[data-use-github-style] table { border-collapse: collapse; text-align: center; }
 .markdown-preview-plus-view[data-use-github-style] pre, .markdown-preview-plus-view[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
-.markdown-preview-plus-view[data-use-github-style] ul.contains-task-list li.task-list-item { position: relative; list-style-type: none; }
-.markdown-preview-plus-view[data-use-github-style] ul.contains-task-list li.task-list-item input.task-list-item-checkbox { position: absolute; transform: translateX(-100%); width: 30px; }
 .markdown-preview-plus-view { height: 100%; display: block; }
 .markdown-preview-plus-view .emoji { max-width: 1em !important; }
 .scrollbars-visible-always .markdown-preview-plus-view pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview-plus-view pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
@@ -115,9 +126,8 @@
   border-bottom: 1px dotted lime;
   position: absolute;
 }
-.line-number.bracket-matcher.bracket-matcher {
-  color: #abb2bf;
-  background-color: #3a3f4b;
+.line-number.bracket-matcher {
+  background-color: #777;
 }
 
 .spell-check-misspelling .region {
@@ -125,6 +135,27 @@
 }
 .spell-check-corrections {
   width: 25em !important;
+}
+
+pre.editor-colors .gutter .line-number {
+  /* Use CSS specificity to force errors to override warnings and info markers */
+  /* Use CSS specificity to force warnings to override info markes. */
+}
+pre.editor-colors .gutter .line-number.latex-error,
+pre.editor-colors .gutter .line-number.latex-error.latex-warning,
+pre.editor-colors .gutter .line-number.latex-error.latex-info,
+pre.editor-colors .gutter .line-number.latex-error.latex-warning.latex-info {
+  border-left: 2px solid #d13b2e;
+  padding-left: calc(0.5em - 2px);
+}
+pre.editor-colors .gutter .line-number.latex-warning,
+pre.editor-colors .gutter .line-number.latex-warning.latex-info {
+  border-left: 2px solid #ad7c0b;
+  padding-left: calc(0.5em - 2px);
+}
+pre.editor-colors .gutter .line-number.latex-info {
+  border-left: 2px solid #0f82e6;
+  padding-left: calc(0.5em - 2px);
 }
 
 pre.editor-colors {
@@ -175,7 +206,7 @@ pre.editor-colors .gutter .line-number {
 }
 pre.editor-colors .gutter .line-number.cursor-line {
   color: #abb2bf;
-  background-color: #3a3f4b;
+  background-color: #2c313a;
 }
 pre.editor-colors .gutter .line-number.cursor-line-no-selection {
   background-color: transparent;
@@ -541,11 +572,10 @@ pre.editor-colors .fold-marker:after {
 .syntax--source.syntax--python .syntax--variable.syntax--parameter {
   color: #d19a66;
 }
-
-pre.editor-colors { overflow: auto; }</style>
+</style>
   </head>
   <body class="markdown-preview-plus-view" data-use-github-style>
-    <h1 style="text-align:center">实验三 键盘与现实</h1>
+    <h1>实验三 键盘与显示</h1>
 <div style="text-align:center">实验人:杨庆龙<br>实验日期:2018.3.28</div>
 <h2>实验目的</h2>
 <ol>
@@ -585,11 +615,6 @@ pre.editor-colors { overflow: auto; }</style>
 <li>可以有秒表功能：清零，暂停，继续，恢复时钟模式</li>
 <li>其他可扩展功能</li>
 </ul>
-<h2>思考题</h2>
-<ol>
-<li>段码表的八位数字中的每一位都对应着相应位置数码管的高低电平，进而可以决定哪些数码管亮哪些数码管暗。而位码中的每一位都对应着数码管是否被选通，也就决定了段码会在哪一个数码管显示。</li>
-<li>示例程序并不能判断多个键被按下的情况，只能判断出所有被选中的行和列，也就只能给出被选中的范围，但并不一定能知道具体是哪些键被按下。需要在知道范围之后再分别指定不同的高低电平将其区分开来。</li>
-</ol>
 <h2>源码</h2>
 <h3>数字显示</h3>
 <pre class="editor-colors lang-text"><span class="syntax--text syntax--plain"><span class="syntax--meta syntax--paragraph syntax--text"><span>#include &lt;C8051F020.h&gt;</span></span></span>
@@ -780,3 +805,44 @@ pre.editor-colors { overflow: auto; }</style>
 </pre>
   </body>
 </html>
+
+
+
+
+
+
+动态的信道规划，根据应用场景和时间分析。
+通过机器学习，针对某个场景，用户数量，用户需求，到达模型
+业务需求：能不能不根据业务模型，只根据应用场景用于预测，模型的自适应调整？，用户模型假设不知道(不需要建模)，根据数据采集，决定下一时刻的信道预分配。
+适配和匹配的问题：
+有通信手段，设备和资源。场景需求和通信提供不匹配，作战任务到通信的需求的映射不OK，美帝是给出模板，填空，然后再由人工提供调整。
+提出的问题:资源池分配
+AI能否适用，哪种技术比较适合
+pre一定要做，尽量下周二，也可以五一之后，
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

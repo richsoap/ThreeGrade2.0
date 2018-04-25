@@ -1,0 +1,93 @@
+\documentclass{article}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+% Remember to fill this section out for each
+% lab write-up.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{CJK}
+\usepackage{listings} % For source code
+\usepackage{float}
+\usepackage{subfig}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}  % START THE DOCUMENT!
+
+\begin{CJK}{UTF8}{gkai}
+\title{实验六 SPI总线}
+\author{杨庆龙 \\1500012956}
+\date{2018.4.25}
+\maketitle
+\section{实验目的}
+\begin{itemize}
+  \item 了解SPI总线的基本时许
+  \item 了解串行FLASH芯片的基本原理
+  \item 掌握串行FLASH芯片的基本用法
+\end{itemize}
+\section{实验原理}
+\subsection{SPI总线简介}
+\subsubsection{传输线}
+\begin{itemize}
+  \item MOSI:主设备到从设备的数据线
+  \item MISO:从设备到主设备的数据线
+  \item SPCK:主设备驱动的时钟信号
+  \item NSS:从设备选择线
+\subsubsection{优点}
+\begin{itemize}
+  \item 全双工
+  \item 协议灵活
+  \item 接口简单
+  \item 信号单向传输
+\end{itemize}
+\subsubsection{缺点}
+\begin{itemize}
+  \item 管脚较多
+  \item 没有流控制信号，没有应答机制
+  \item 只有一个主设备
+  \item 数据传输距离比较近
+\end{itemize}
+配置寄存器如表\ref{table1}
+\begin{table}
+  \caption{SPI配置寄存器 SPI0CFG}
+  \label{table1}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0\\
+    \hline
+    CKPHA&CKOPL&BC2&BC1&BC0&SPIFRS2&SPIFRS1&SPIFRS0\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\subsection{SPI接口}
+C8051F020的SPI控制器可工作在主模式或从模式下，相关控制使用XBR设置，各寄存器功能如下
+\begin{itemize}
+  \item CKPHA:SPI时钟相位
+  \item CKPOL:SPI时钟极性
+  \item BC2-0:获得当前帧已发送的比特数
+  \item SPIFR2-0:用来设置帧大小
+  \item SPIF:中断标识，软清除
+  \item WCOL:写入碰撞位，软清除
+  \item MODF:主模式碰撞位，软清除
+  \item RXOVRN:接收溢出，软清除
+  \item TXBSY:发送忙标识，自动清除
+  \item SLVSEL:选中标识，NSS为低时置1
+  \item MSTEN:主模式允许位
+  \item SPIEN:SPI允许位
+\end{itemize}
+使用SPI0CKR设置SPI时钟频率
+$$f=\frac{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}$$
+\subsection{SPI Flash的使用}
+
+
+
+
+\end{itemize}
+\end{CJK}
+
+\end{document} % DONE WITH DOCUMENT!
+
+
+\\
+学校里，提供二维码，为需要物品打标签。
+钥匙打码
+可选打码

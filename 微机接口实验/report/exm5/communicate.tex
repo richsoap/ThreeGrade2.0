@@ -8,10 +8,15 @@
 \usepackage{subfig}
 \usepackage{graphicx}
 \usepackage{listings} % For source code
+<<<<<<< HEAD
 \usepackage{xcolor}
 \usepackage{geometry}
 \geometry{left=1.7cm,right=1.7cm,top=2.0cm,bottom=2.0cm}
 
+=======
+\usepackage{float}
+\usepackage{subfig}
+>>>>>>> 39c049beb19b1056eb1ee906be3afdf5f37b94bf
 % END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
 
 
@@ -69,6 +74,7 @@ MCS51内部有一个可编程的全双工串行通信口，可作为通用异步
 初始化了UART0后，单片机会将该串口作为STDIO，用户可以直接用printf和scanf从串口中读写数据。编写程序通过串口输入数据，进行四则运算后输出到串口。
 \section{实验结果}
 \subsection{观察UART通信波形}
+<<<<<<< HEAD
 设定串口工作方式1,用9600bps的波特率，发送8AH，用示波器观察TxD可得\ref{pro1_1}。从图中可以看到，串口输出信号为0010100011,输出波形符合预期，接下来是波特率检查。
 \begin{figure}
   \centering
@@ -142,6 +148,21 @@ void main() {
    #include "../../includes/storage.h"
    #define RX_LEN 4
    #define EMPTY 255
+=======
+设定串口工作方式为1，实际所用波特率为9600，传输字节为8AH。用示波器观察TxD的电平，得到波形图如下。
+\begin{figure}
+  \includegraphics[width=0.5\textwidth]{pro1_sub1.jpg}
+  \caption{9600波特率8AH波形图}
+  \label{pro1_sub1.jpg}
+\end{figure}
+\subsection{串口收发实验}
+\begin{figure}
+  \includegraphics{pro2_sub1.jpg}
+  \caption{}
+  \label{pro2_sub2.jpg}
+\end{figure}
+\subsection{串口STDIO}
+>>>>>>> 39c049beb19b1056eb1ee906be3afdf5f37b94bf
 
    int RxBuf[RX_LEN];
    char TxBuf;
@@ -243,3 +264,9 @@ void main() {
 \end{lstlisting}
 \end{CJK}
 \end{document} % DONE WITH DOCUMENT!
+
+
+\\
+学校里，提供二维码，为需要物品打标签。
+钥匙打码
+可选打码

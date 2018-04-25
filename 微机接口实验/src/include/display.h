@@ -12,13 +12,5 @@ const unsigned char digital_trans[] = {
 const unsigned char digital_index[] = {
   0x7, 0xB, 0xD, 0xE
 };
-void display_port_init() {
-  EMIOCF = 0x1F;
-  XBR2 = 0x42;
-  P0MDOUT = 0xC0;
-  P1MDOUT = 0xFF;
-  P2MDOUT = 0xFF;
-  P3MDOUT = 0xFF;
-}
 
 #endif
