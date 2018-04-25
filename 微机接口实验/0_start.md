@@ -71,3 +71,8 @@
 * 两种key？touch&hold？
 
 梁政，王岚山，都于洋，刘文成，靳盼盼
+
+$$e_{y,x}=b=\frac{dlny}{dlnx}=\frac{dlna+bdlnx}{dlnx}=b\\
+dlny = \frac{dy}{y}\\
+dlnx = \frac{dx}{x}\to \frac{1}{dlnx}=\frac{x}{dx}\\
+\frac{dy}{dx}\frac{x}{y}=\frac{dlny}{dlnx}$$

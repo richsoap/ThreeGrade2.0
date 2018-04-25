@@ -5,6 +5,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{CJK}
 \usepackage{listings} % For source code
+\usepackage{float}
+\usepackage{subfig}
 % END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
 
 
@@ -60,9 +62,28 @@ MCS51内部有一个可编程的全双工串行通信口，可作为通用异步
 编写一个程序是单片机通过键盘输入数据，再把数据送到PC上，PC又将数据发送给单片机，单片机将数据现实到数码管上。
 \subsection{串口作为STDIO}
 初始化了UART0后，单片机会将该串口作为STDIO，用户可以直接用printf和scanf从串口中读写数据。编写程序通过串口输入数据，进行四则运算后输出到串口。
-
-
+\section{实验结果}
+\subsection{观察UART通信波形}
+设定串口工作方式为1，实际所用波特率为9600，传输字节为8AH。用示波器观察TxD的电平，得到波形图如下。
+\begin{figure}
+  \includegraphics[width=0.5\textwidth]{pro1_sub1.jpg}
+  \caption{9600波特率8AH波形图}
+  \label{pro1_sub1.jpg}
+\end{figure}
+\subsection{串口收发实验}
+\begin{figure}
+  \includegraphics{pro2_sub1.jpg}
+  \caption{}
+  \label{pro2_sub2.jpg}
+\end{figure}
+\subsection{串口STDIO}
 
 \end{CJK}
 
 \end{document} % DONE WITH DOCUMENT!
+
+
+\\
+学校里，提供二维码，为需要物品打标签。
+钥匙打码
+可选打码
