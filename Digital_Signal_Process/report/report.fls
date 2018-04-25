@@ -60,6 +60,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.aux
 INPUT /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.aux
 OUTPUT /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.aux
@@ -167,7 +173,6 @@ INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu53.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu4e.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu6b.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu56.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu7c.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu66.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu8d.tfm
@@ -195,6 +200,7 @@ INPUT /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1
 INPUT /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro2_phase-eps-converted-to.pdf
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu76.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu4f.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu57.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu97.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu52.tfm

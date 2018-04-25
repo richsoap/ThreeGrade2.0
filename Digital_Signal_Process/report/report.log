@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  12 APR 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  25 APR 2018 09:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -133,6 +133,26 @@ Package caption Info: float package is loaded.
 \c@lotdepth=\count96
 \sf@top=\skip46
 \sf@bottom=\skip47
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
+\Gm@bindingoffset=\dimen113
+\Gm@wd@mp=\dimen114
+\Gm@odd@mp=\dimen115
+\Gm@even@mp=\dimen116
+\Gm@layoutwidth=\dimen117
+\Gm@layoutheight=\dimen118
+\Gm@layouthoffset=\dimen119
+\Gm@layoutvoffset=\dimen120
+\Gm@dimlist=\toks17
 )
 
 LaTeX Warning: Unused global option(s):
@@ -141,144 +161,171 @@ LaTeX Warning: Unused global option(s):
 (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen113
+\scratchcounter=\count100
+\scratchdimen=\dimen121
 \scratchbox=\box29
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen114
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks18
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen122
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks19
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
- (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 638.47984pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=638.47984pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 ) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
 ) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+gkai on input line 12.
+LaTeX Font Info:    Try loading font information for C70+gkai on input line 14.
  (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fd
 File: c70gkai.fd 2008/10/03 4.8.1
 ) (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fdx
 File: c70gkai.fdx 2012/05/07 4.8.3
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 20.
 Package epstopdf Info: Source file: <pro1_subpro1.eps>
-(epstopdf)                    date: 2018-04-06 22:51:01
-(epstopdf)                    size: 51582 bytes
+(epstopdf)                    date: 2018-04-12 20:26:29
+(epstopdf)                    size: 51508 bytes
 (epstopdf)             Output file: <pro1_subpro1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-04-06 23:01:03
+(epstopdf)                    date: 2018-04-25 09:12:34
 (epstopdf)                    size: 18752 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro1_subpro1-eps-converted-to.pdf pro1_subpro1.eps>
-(epstopdf)             \includegraphics on input line 75.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
  <pro1_subpro1-eps-converted-to.pdf, id=1, 643.40375pt x 339.2675pt>
 File: pro1_subpro1-eps-converted-to.pdf Graphic file (type pdf)
  <use pro1_subpro1-eps-converted-to.pdf>
-Package pdftex.def Info: pro1_subpro1-eps-converted-to.pdf used on input line 75.
+Package pdftex.def Info: pro1_subpro1-eps-converted-to.pdf used on input line 77.
 (pdftex.def)             Requested size: 193.02261pt x 101.78102pt.
-
-Overfull \hbox (18.25983pt too wide) detected at line 106
-[] \OT1/cmr/m/n/10 = [] [] [][]
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <pro1_subpro2_amp.eps>
 (epstopdf)                    date: 2018-04-06 22:51:37
 (epstopdf)                    size: 82232 bytes
@@ -286,13 +333,13 @@ Package epstopdf Info: Source file: <pro1_subpro2_amp.eps>
 (epstopdf)                    date: 2018-04-06 23:01:03
 (epstopdf)                    size: 35150 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro1_subpro2_amp-eps-converted-to.pdf pro1_subpro2_amp.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
- <pro1_subpro2_amp-eps-converted-to.pdf, id=62, 421.575pt x 316.18124pt>
+ <pro1_subpro2_amp-eps-converted-to.pdf, id=2, 421.575pt x 316.18124pt>
 File: pro1_subpro2_amp-eps-converted-to.pdf Graphic file (type pdf)
  <use pro1_subpro2_amp-eps-converted-to.pdf>
-Package pdftex.def Info: pro1_subpro2_amp-eps-converted-to.pdf used on input line 110.
-(pdftex.def)             Requested size: 172.5pt x 129.37462pt.
+Package pdftex.def Info: pro1_subpro2_amp-eps-converted-to.pdf used on input line 112.
+(pdftex.def)             Requested size: 236.01561pt x 177.01204pt.
 Package epstopdf Info: Source file: <pro1_subpro2_phase.eps>
 (epstopdf)                    date: 2018-04-06 22:51:28
 (epstopdf)                    size: 80447 bytes
@@ -300,13 +347,16 @@ Package epstopdf Info: Source file: <pro1_subpro2_phase.eps>
 (epstopdf)                    date: 2018-04-06 23:01:04
 (epstopdf)                    size: 34465 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro1_subpro2_phase-eps-converted-to.pdf pro1_subpro2_phase.eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
- <pro1_subpro2_phase-eps-converted-to.pdf, id=63, 540.0175pt x 345.29pt>
+ <pro1_subpro2_phase-eps-converted-to.pdf, id=3, 540.0175pt x 345.29pt>
 File: pro1_subpro2_phase-eps-converted-to.pdf Graphic file (type pdf)
  <use pro1_subpro2_phase-eps-converted-to.pdf>
-Package pdftex.def Info: pro1_subpro2_phase-eps-converted-to.pdf used on input line 111.
-(pdftex.def)             Requested size: 172.5pt x 110.29483pt.
+Package pdftex.def Info: pro1_subpro2_phase-eps-converted-to.pdf used on input line 113.
+(pdftex.def)             Requested size: 236.01561pt x 150.90593pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <pro1_subpro3.eps>
 (epstopdf)                    date: 2018-04-06 22:52:03
 (epstopdf)                    size: 298705 bytes
@@ -314,24 +364,13 @@ Package epstopdf Info: Source file: <pro1_subpro3.eps>
 (epstopdf)                    date: 2018-04-06 23:02:33
 (epstopdf)                    size: 119680 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro1_subpro3-eps-converted-to.pdf pro1_subpro3.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
  <pro1_subpro3-eps-converted-to.pdf, id=64, 550.055pt x 512.91624pt>
 File: pro1_subpro3-eps-converted-to.pdf Graphic file (type pdf)
  <use pro1_subpro3-eps-converted-to.pdf>
-Package pdftex.def Info: pro1_subpro3-eps-converted-to.pdf used on input line 121.
+Package pdftex.def Info: pro1_subpro3-eps-converted-to.pdf used on input line 123.
 (pdftex.def)             Requested size: 385.03587pt x 359.03893pt.
-
-Overfull \hbox (40.03587pt too wide) in paragraph at lines 121--122
- [][] 
- []
-
-[2 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro1-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro2_amp-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro2_phase-eps-converted-to.pdf>]
-Overfull \hbox (18.90689pt too wide) in paragraph at lines 125--125
-[]\C70/gkai/bx/n/12/5b ù[][]\OT1/cmr/bx/n/12 x(n)\C70/gkai/bx/n/12/8f Û[][] \C70/gkai/bx/n/12/88 L[][]\OT1/cmr/bx/n/12 8\C70/gkai/bx/n/12/50 ^^M[][] \C70/gkai/bx/n/12/4e 
-[][] \C70/gkai/bx/n/12/91 Ç[][] \C70/gkai/bx/n/12/68 7[][] \C70/gkai/bx/n/12/ff ^^H[][] \C70/gkai/bx/n/12/53 s[][] \C70/gkai/bx/n/12/6b Ï[][] \C70/gkai/bx/n/12/4e *[][] \C70/gkai/bx/n/12/70 ¹[][] \C70/gkai/bx/n/12/54 ^^N[][] \C70/gkai/bx/n/12/97 b[][] \C70/gkai/bx/n/12/88 e[][]\OT1/cmr/bx/n/12 7\C70/gkai/bx/n/12/4e *[][]\OT1/cmr/bx/n/12 0\C70/gkai/bx/n/12/ff 	[][] ^^L[][] \C70/gkai/bx/n/12/6c B[][] \C70/gkai/bx/n/12/51 v[][]\OT1/cmr/bx/n/12 DFT\C70/gkai/bx/n/12/ff ^^L[][]
- []
-
 Package epstopdf Info: Source file: <pro1_subpro4_amp.eps>
 (epstopdf)                    date: 2018-04-06 22:52:34
 (epstopdf)                    size: 87969 bytes
@@ -339,13 +378,13 @@ Package epstopdf Info: Source file: <pro1_subpro4_amp.eps>
 (epstopdf)                    date: 2018-04-06 23:02:49
 (epstopdf)                    size: 29054 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro1_subpro4_amp-eps-converted-to.pdf pro1_subpro4_amp.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<pro1_subpro4_amp-eps-converted-to.pdf, id=89, 668.4975pt x 294.09875pt>
+ <pro1_subpro4_amp-eps-converted-to.pdf, id=65, 668.4975pt x 294.09875pt>
 File: pro1_subpro4_amp-eps-converted-to.pdf Graphic file (type pdf)
  <use pro1_subpro4_amp-eps-converted-to.pdf>
-Package pdftex.def Info: pro1_subpro4_amp-eps-converted-to.pdf used on input line 131.
-(pdftex.def)             Requested size: 172.5pt x 75.88945pt.
+Package pdftex.def Info: pro1_subpro4_amp-eps-converted-to.pdf used on input line 133.
+(pdftex.def)             Requested size: 236.01561pt x 103.83362pt.
 Package epstopdf Info: Source file: <pro1_subpro4_phase.eps>
 (epstopdf)                    date: 2018-04-06 22:52:23
 (epstopdf)                    size: 90319 bytes
@@ -353,18 +392,14 @@ Package epstopdf Info: Source file: <pro1_subpro4_phase.eps>
 (epstopdf)                    date: 2018-04-06 23:01:04
 (epstopdf)                    size: 32505 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro1_subpro4_phase-eps-converted-to.pdf pro1_subpro4_phase.eps>
-(epstopdf)             \includegraphics on input line 132.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
- <pro1_subpro4_phase-eps-converted-to.pdf, id=90, 548.0475pt x 316.18124pt>
+ <pro1_subpro4_phase-eps-converted-to.pdf, id=66, 548.0475pt x 316.18124pt>
 File: pro1_subpro4_phase-eps-converted-to.pdf Graphic file (type pdf)
  <use pro1_subpro4_phase-eps-converted-to.pdf>
-Package pdftex.def Info: pro1_subpro4_phase-eps-converted-to.pdf used on input line 132.
-(pdftex.def)             Requested size: 172.5pt x 99.52042pt.
- [3 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro3-eps-converted-to.pdf>]
-Overfull \hbox (1.13965pt too wide) in paragraph at lines 140--140
-\C70/gkai/bx/n/12/91 Ç[][] \C70/gkai/bx/n/12/68 7[][] \C70/gkai/bx/n/12/54 ^^N[][] \C70/gkai/bx/n/12/76 „[][] \C70/gkai/bx/n/12/79 »[][] \C70/gkai/bx/n/12/65 c[][] \C70/gkai/bx/n/12/4f á[][] \C70/gkai/bx/n/12/53 ÷[][] \C70/gkai/bx/n/12/56 þ[][] \C70/gkai/bx/n/12/ff ^^[[][] ^^H[][] \C70/gkai/bx/n/12/53 ê[][] \C70/gkai/bx/n/12/97 ^^@[][] \C70/gkai/bx/n/12/75 ;[][] \C70/gkai/bx/n/12/51 ú[][] \C70/gkai/bx/n/12/4e 	[][] *[][] \C70/gkai/bx/n/12/54 h[][] \C70/gkai/bx/n/12/67 ^^_[][] \C70/gkai/bx/n/12/53 s[][] ï[][]\OT1/cmr/bx/n/12 t\C70/gkai/bx/n/12/ff ^^Z[][]\OT1/cmr/bx/n/12 0\C70/gkai/bx/n/12/20 ^^T[][]\OT1/cmr/bx/n/12 3\C70/gkai/bx/n/12/ff 	[][] 
- []
-
+Package pdftex.def Info: pro1_subpro4_phase-eps-converted-to.pdf used on input line 134.
+(pdftex.def)             Requested size: 236.01561pt x 136.16273pt.
+ [2 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro1-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro2_amp-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro2_phase-eps-converted-to.pdf>] [3 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pro2_subpro1.eps>
 (epstopdf)                    date: 2018-04-06 23:00:56
 (epstopdf)                    size: 585481 bytes
@@ -372,18 +407,13 @@ Package epstopdf Info: Source file: <pro2_subpro1.eps>
 (epstopdf)                    date: 2018-04-06 23:01:04
 (epstopdf)                    size: 204679 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro2_subpro1-eps-converted-to.pdf pro2_subpro1.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
-<pro2_subpro1-eps-converted-to.pdf, id=108, 865.2325pt x 339.2675pt>
+ <pro2_subpro1-eps-converted-to.pdf, id=109, 865.2325pt x 339.2675pt>
 File: pro2_subpro1-eps-converted-to.pdf Graphic file (type pdf)
  <use pro2_subpro1-eps-converted-to.pdf>
-Package pdftex.def Info: pro2_subpro1-eps-converted-to.pdf used on input line 144.
+Package pdftex.def Info: pro2_subpro1-eps-converted-to.pdf used on input line 146.
 (pdftex.def)             Requested size: 346.08687pt x 135.70459pt.
-
-Overfull \hbox (1.08687pt too wide) in paragraph at lines 144--145
- [][] 
- []
-
 Package epstopdf Info: Source file: <pro2_subpro2.eps>
 (epstopdf)                    date: 2018-04-12 09:29:53
 (epstopdf)                    size: 154403 bytes
@@ -391,20 +421,20 @@ Package epstopdf Info: Source file: <pro2_subpro2.eps>
 (epstopdf)                    date: 2018-04-12 17:26:49
 (epstopdf)                    size: 53225 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro2_subpro2-eps-converted-to.pdf pro2_subpro2.eps>
-(epstopdf)             \includegraphics on input line 152.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<pro2_subpro2-eps-converted-to.pdf, id=109, 414.54875pt x 294.09875pt>
+ <pro2_subpro2-eps-converted-to.pdf, id=110, 414.54875pt x 294.09875pt>
 File: pro2_subpro2-eps-converted-to.pdf Graphic file (type pdf)
  <use pro2_subpro2-eps-converted-to.pdf>
-Package pdftex.def Info: pro2_subpro2-eps-converted-to.pdf used on input line 152.
+Package pdftex.def Info: pro2_subpro2-eps-converted-to.pdf used on input line 154.
 (pdftex.def)             Requested size: 290.18214pt x 205.8677pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
- [4 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro4_amp-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro4_phase-eps-converted-to.pdf>] [5 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2_subpro1-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2_subpro2-eps-converted-to.pdf>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
+ [4 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2_subpro1-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro4_amp-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro1_subpro4_phase-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pro2_subpro3.eps>
 (epstopdf)                    date: 2018-04-12 09:30:20
 (epstopdf)                    size: 1149547 bytes
@@ -412,14 +442,13 @@ Package epstopdf Info: Source file: <pro2_subpro3.eps>
 (epstopdf)                    date: 2018-04-12 17:51:12
 (epstopdf)                    size: 420323 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro2_subpro3-eps-converted-to.pdf pro2_subpro3.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
- <pro2_subpro3-eps-converted-to.pdf, id=143, 421.575pt x 316.18124pt>
+ <pro2_subpro3-eps-converted-to.pdf, id=135, 421.575pt x 316.18124pt>
 File: pro2_subpro3-eps-converted-to.pdf Graphic file (type pdf)
  <use pro2_subpro3-eps-converted-to.pdf>
-Package pdftex.def Info: pro2_subpro3-eps-converted-to.pdf used on input line 167.
+Package pdftex.def Info: pro2_subpro3-eps-converted-to.pdf used on input line 169.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
- [6 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2_subpro3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pro3_subpro1.eps>
 (epstopdf)                    date: 2018-04-08 12:38:12
 (epstopdf)                    size: 131344 bytes
@@ -427,23 +456,14 @@ Package epstopdf Info: Source file: <pro3_subpro1.eps>
 (epstopdf)                    date: 2018-04-12 17:26:49
 (epstopdf)                    size: 50382 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro3_subpro1-eps-converted-to.pdf pro3_subpro1.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
- <pro3_subpro1-eps-converted-to.pdf, id=152, 766.865pt x 339.2675pt>
+ <pro3_subpro1-eps-converted-to.pdf, id=136, 766.865pt x 339.2675pt>
 File: pro3_subpro1-eps-converted-to.pdf Graphic file (type pdf)
  <use pro3_subpro1-eps-converted-to.pdf>
-Package pdftex.def Info: pro3_subpro1-eps-converted-to.pdf used on input line 194.
+Package pdftex.def Info: pro3_subpro1-eps-converted-to.pdf used on input line 196.
 (pdftex.def)             Requested size: 383.43156pt x 169.63333pt.
-
-Overfull \hbox (38.43156pt too wide) in paragraph at lines 194--195
- [][] 
- []
-
-
-Overfull \hbox (5.27788pt too wide) in paragraph at lines 191--198
-\C70/gkai/m/n/10/63 	 \C70/gkai/m/n/10/71 g \C70/gkai/m/n/10/98 ˜ \C70/gkai/m/n/10/76 î \C70/gkai/m/n/10/4e - \C70/gkai/m/n/10/62 @ \C70/gkai/m/n/10/7e Ù \C70/gkai/m/n/10/76 „ \C70/gkai/m/n/10/52 ^^F \C70/gkai/m/n/10/6b µ \C70/gkai/m/n/10/51 ý \C70/gkai/m/n/10/65 p \C70/gkai/m/n/10/ff ^^L \C70/gkai/m/n/10/53 ï \C70/gkai/m/n/10/4e å \C70/gkai/m/n/10/5f — \C70/gkai/m/n/10/52 0 \C70/gkai/m/n/10/8b å \C70/gkai/m/n/10/4f á \C70/gkai/m/n/10/53 ÷ \C70/gkai/m/n/10/76 „ \C70/gkai/m/n/10/65 ö \C70/gkai/m/n/10/57 ß \C70/gkai/m/n/10/79 » \C70/gkai/m/n/10/65 c \C70/gkai/m/n/10/4f á \C70/gkai/m/n/10/53 ÷ \C70/gkai/m/n/10/56 þ \C70/gkai/m/n/10/54 Œ\OT1/cmr/m/n/10 1024\C70/gkai/m/n/10/70 ¹\OT1/cmr/m/n/10 FFT\C70/gkai/m/n/10/53 Ø
- []
-
+ [5 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2_subpro2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pro3_subpro2_ifft.eps>
 (epstopdf)                    date: 2018-04-12 09:45:33
 (epstopdf)                    size: 124319 bytes
@@ -451,13 +471,13 @@ Package epstopdf Info: Source file: <pro3_subpro2_ifft.eps>
 (epstopdf)                    date: 2018-04-12 17:52:58
 (epstopdf)                    size: 42157 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro3_subpro2_ifft-eps-converted-to.pdf pro3_subpro2_ifft.eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 204.
 Package epstopdf Info: Output file is already uptodate.
-<pro3_subpro2_ifft-eps-converted-to.pdf, id=153, 650.43pt x 556.0775pt>
+ <pro3_subpro2_ifft-eps-converted-to.pdf, id=145, 650.43pt x 556.0775pt>
 File: pro3_subpro2_ifft-eps-converted-to.pdf Graphic file (type pdf)
  <use pro3_subpro2_ifft-eps-converted-to.pdf>
-Package pdftex.def Info: pro3_subpro2_ifft-eps-converted-to.pdf used on input line 202.
-(pdftex.def)             Requested size: 276.00105pt x 235.9692pt.
+Package pdftex.def Info: pro3_subpro2_ifft-eps-converted-to.pdf used on input line 204.
+(pdftex.def)             Requested size: 377.62642pt x 322.8561pt.
 Package epstopdf Info: Source file: <pro3_subpro2_src.eps>
 (epstopdf)                    date: 2018-04-08 12:48:25
 (epstopdf)                    size: 34721 bytes
@@ -465,41 +485,36 @@ Package epstopdf Info: Source file: <pro3_subpro2_src.eps>
 (epstopdf)                    date: 2018-04-12 17:52:59
 (epstopdf)                    size: 12509 bytes
 (epstopdf)             Command: <repstopdf --outfile=pro3_subpro2_src-eps-converted-to.pdf pro3_subpro2_src.eps>
-(epstopdf)             \includegraphics on input line 203.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
- <pro3_subpro2_src-eps-converted-to.pdf, id=154, 429.605pt x 339.2675pt>
+ <pro3_subpro2_src-eps-converted-to.pdf, id=146, 429.605pt x 339.2675pt>
 File: pro3_subpro2_src-eps-converted-to.pdf Graphic file (type pdf)
  <use pro3_subpro2_src-eps-converted-to.pdf>
-Package pdftex.def Info: pro3_subpro2_src-eps-converted-to.pdf used on input line 203.
-(pdftex.def)             Requested size: 172.5pt x 136.22745pt.
- [7 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro3_subpro1-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
+Package pdftex.def Info: pro3_subpro2_src-eps-converted-to.pdf used on input line 205.
+(pdftex.def)             Requested size: 236.01561pt x 186.38544pt.
+ [6 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2_subpro3-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro3_subpro1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
 
  []
 
-[8 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro3_subpro2_ifft-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro3_subpro2_src-eps-converted-to.pdf>]
-Overfull \hbox (58.33397pt too wide) detected at line 229
-[][]
- []
-
-[9] (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.aux) ) 
+[7 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro3_subpro2_ifft-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro3_subpro2_src-eps-converted-to.pdf>] [8] (/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.aux) ) 
 Here is how much of TeX's memory you used:
- 4456 strings out of 493029
- 68717 string characters out of 6136234
- 136122 words of memory out of 5000000
- 7878 multiletter control sequences out of 15000+600000
+ 4933 strings out of 493029
+ 75726 string characters out of 6136234
+ 149511 words of memory out of 5000000
+ 8345 multiletter control sequences out of 15000+600000
  43532 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,52p,736b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu20.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu30.pfb></usr/s
-hare/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu55.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu58.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf
-/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu71.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/typ
-e1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu83.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu86.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/
-gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
-Output written on /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.pdf (9 pages, 1475882 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu20.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu30.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu55.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu58.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/
+texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu71.pfb></usr/share/texmf/font
+s/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu83.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu86.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/ar
+phic/gkaiu/gkaiu8a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
+Output written on /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/report.pdf (8 pages, 1474519 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
+ 413 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
