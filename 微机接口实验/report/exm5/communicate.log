@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  22 APR 2018 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  25 APR 2018 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -158,82 +158,82 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.aux)
 \openout1 = `communicate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
@@ -294,15 +294,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(48.36958pt, 517.55583pt, 48.36958pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 652.70622pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=517.55583pt
-* \textheight=681.15898pt
-* \oddsidemargin=-23.9004pt
-* \evensidemargin=-23.9004pt
-* \topmargin=-52.36449pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -327,95 +327,139 @@ File: UTF8.enc 2015/04/18 4.8.4
 ) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+gkai on input line 24.
+LaTeX Font Info:    Try loading font information for C70+gkai on input line 23.
  (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fd
 File: c70gkai.fd 2008/10/03 4.8.1
 ) (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fdx
 File: c70gkai.fdx 2012/05/07 4.8.3
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
-
-Overfull \hbox (5.19449pt too wide) in paragraph at lines 65--66
-\C70/gkai/m/n/10/8b � \C70/gkai/m/n/10/5b � \C70/gkai/m/n/10/4e 2 \C70/gkai/m/n/10/88 L \C70/gkai/m/n/10/53 � \C70/gkai/m/n/10/5d � \C70/gkai/m/n/10/4f \ \C70/gkai/m/n/10/65 � \C70/gkai/m/n/10/5f ^^O\OT1/cmr/m/n/10 1\C70/gkai/m/n/10/ff ^^L \C70/gkai/m/n/10/75 (\OT1/cmr/m/n/10 1200bps\C70/gkai/m/n/10/5f � \C70/gkai/m/n/10/73 � \C70/gkai/m/n/10/53 � \C70/gkai/m/n/10/90 ^^A \C70/gkai/m/n/10/4e ^^@ * \C70/gkai/m/n/10/5b W \C70/gkai/m/n/10/82 �\OT1/cmr/m/n/10 55H\C70/gkai/m/n/10/62 ^^V\OT1/cmr/m/n/10 8AH\C70/gkai/m/n/10/ff ^^L \C70/gkai/m/n/10/75 ( \C70/gkai/m/n/10/79 : \C70/gkai/m/n/10/6c � \C70/gkai/m/n/10/56 h \C70/gkai/m/n/10/89 � \C70/gkai/m/n/10/5b �\OT1/cmr/m/n/10 TxD\C70/gkai/m/n/10/76 � \C70/gkai/m/n/10/75 5 \C70/gkai/m/n/10/5e s \C70/gkai/m/n/10/54 � \C70/gkai/m/n/10/4f � \C70/gkai/m/n/10/53 � \C70/gkai/m/n/10/7e � \C70/gkai/m/n/10/67 � \C70/gkai/m/n/10/ff ^^L \C70/gkai/m/n/10/7e � \C70/gkai/m/n/10/51 �\OT1/cmr/m/n/10 1200bps\C70/gkai/m/n/10/6c �
- []
-
-[1
+(Font)              <5> on input line 46.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] <code.jpg, id=65, 1927.2pt x 1084.05pt>
 File: code.jpg Graphic file (type jpg)
  <use code.jpg>
-Package pdftex.def Info: code.jpg used on input line 75.
-(pdftex.def)             Requested size: 310.53665pt x 174.6756pt.
+Package pdftex.def Info: code.jpg used on input line 74.
+(pdftex.def)             Requested size: 283.22162pt x 159.30878pt.
  <frequency.jpg, id=66, 1927.2pt x 1084.05pt>
 File: frequency.jpg Graphic file (type jpg)
  <use frequency.jpg>
-Package pdftex.def Info: frequency.jpg used on input line 82.
-(pdftex.def)             Requested size: 310.53665pt x 174.6756pt.
+Package pdftex.def Info: frequency.jpg used on input line 81.
+(pdftex.def)             Requested size: 283.22162pt x 159.30878pt.
  <read.png, id=67, 722.7pt x 491.8375pt>
 File: read.png Graphic file (type png)
  <use read.png>
-Package pdftex.def Info: read.png used on input line 90.
-(pdftex.def)             Requested size: 207.01917pt x 140.88809pt.
+Package pdftex.def Info: read.png used on input line 89.
+(pdftex.def)             Requested size: 188.8096pt x 128.49013pt.
  <display.jpg, id=69, 759.83875pt x 384.43625pt>
 File: display.jpg Graphic file (type jpg)
  <use display.jpg>
-Package pdftex.def Info: display.jpg used on input line 91.
-(pdftex.def)             Requested size: 207.01917pt x 104.73773pt.
+Package pdftex.def Info: display.jpg used on input line 90.
+(pdftex.def)             Requested size: 188.8096pt x 95.52808pt.
  <cacu.png, id=70, 720.6925pt x 499.8675pt>
 File: cacu.png Graphic file (type png)
  <use cacu.png>
-Package pdftex.def Info: cacu.png used on input line 98.
-(pdftex.def)             Requested size: 310.53665pt x 215.38121pt.
-
-Overfull \hbox (67.4991pt too wide) in paragraph at lines 105--106
-[]\C70/gkai/m/n/10/4f ^^? \C70/gkai/m/n/10/75 ( \C70/gkai/m/n/10/7c � \C70/gkai/m/n/10/7e � \C70/gkai/m/n/10/65 � \C70/gkai/m/n/10/94 � \C70/gkai/m/n/10/5b �\OT1/cmr/m/n/10 230400bps\C70/gkai/m/n/10/52 ^^F \C70/gkai/m/n/10/98 � \C70/gkai/m/n/10/ff ^^L \C70/gkai/m/n/10/51 � \C70/gkai/m/n/10/4f � \C70/gkai/m/n/10/63 n \C70/gkai/m/n/10/91 � \C70/gkai/m/n/10/68 7 \C70/gkai/m/n/10/73 � \C70/gkai/m/n/10/8b � \C70/gkai/m/n/10/7b � \C70/gkai/m/n/10/5f � \C70/gkai/m/n/10/52 0 \C70/gkai/m/n/10/8b � \C70/gkai/m/n/10/65 p \C70/gkai/m/n/10/56 h \C70/gkai/m/n/10/6e � \C70/gkai/m/n/10/51 � \C70/gkai/m/n/10/65 p \C70/gkai/m/n/10/5b W \C70/gkai/m/n/10/53 s � \C70/gkai/m/n/10/30 ^^B \C70/gkai/m/n/10/4f � \C70/gkai/m/n/10/59 � \C70/gkai/m/n/10/5b � \C70/gkai/m/n/10/4e � \OT1/cmr/m/n/10 16\C70/gkai/m/n/10/50 ^^M \C70/gkai/m/n/10/91 � \C70/gkai/m/n/10/68 7 \C70/gkai/m/n/10/73 � \C70/gkai/m/n/10/67 	\OT1/cmr/m/n/10 22118400/230400/16=6\C70/gkai/m/n/10/30 ^^B
- []
-
-[2 </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/code.jpg>] [3 </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/frequency.jpg> </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/read.png> </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/display.jpg> </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/cacu.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+Package pdftex.def Info: cacu.png used on input line 97.
+(pdftex.def)             Requested size: 283.22162pt x 196.43486pt.
+ [2 </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/code.jpg>] [3 </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/frequency.jpg> </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/read.png> </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/display.jpg> </home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/cacu.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [4
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Incomplete \iffalse; all text was ignored after line 172.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
 <inserted text> 
                 \fi 
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Incomplete \iffalse; all text was ignored after line 172.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
 <inserted text> 
                 \fi 
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {5}\global \let 
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.163        if(
+                keyResult != NOKEY) {
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {5}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.163        if(
+                keyResult != NOKEY) {
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {5}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.163        if(
+                keyResult != NOKEY) {
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
+<inserted text> 
+                \fi 
+l.163        if(
+                keyResult != NOKEY) {
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
+<inserted text> 
+                \fi 
+l.163        if(
+                keyResult != NOKEY) {
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {6}\global \let 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -423,11 +467,11 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {6}\global \let \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -435,53 +479,41 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {6}\global \let \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Incomplete \iffalse; all text was ignored after line 172.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
 <inserted text> 
                 \fi 
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Incomplete \iffalse; all text was ignored after line 172.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
 <inserted text> 
                 \fi 
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -489,41 +521,53 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Incomplete \iffalse; all text was ignored after line 172.
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.163        if(
+                keyResult != NOKEY) {
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
 <inserted text> 
                 \fi 
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Incomplete \iffalse; all text was ignored after line 172.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Incomplete \iffalse; all text was ignored after line 163.
 <inserted text> 
                 \fi 
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -531,11 +575,11 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -543,42 +587,42 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:172: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:163: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.172    void 
-              uart0_int() interrupt 4 {
+l.163        if(
+                keyResult != NOKEY) {
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 ] [5
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:232: Incomplete \iffalse; all text was ignored after line 232.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:222: Incomplete \iffalse; all text was ignored after line 222.
 <inserted text> 
                 \fi 
-l.232            case 
-                      '/':
+l.222            case 
+                      '+' :
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:232: Incomplete \iffalse; all text was ignored after line 232.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:222: Incomplete \iffalse; all text was ignored after line 222.
 <inserted text> 
                 \fi 
-l.232            case 
-                      '/':
+l.222            case 
+                      '+' :
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:232: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:222: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.232            case 
-                      '/':
+l.222            case 
+                      '+' :
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -586,11 +630,11 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:232: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:222: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.232            case 
-                      '/':
+l.222            case 
+                      '+' :
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -598,11 +642,11 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3}\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:232: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.tex:222: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.232            case 
-                      '/':
+l.222            case 
+                      '+' :
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -612,7 +656,7 @@ you'd better type `E' or `X' now and fix your file.
 Here is how much of TeX's memory you used:
  6826 strings out of 493029
  97803 string characters out of 6136234
- 207020 words of memory out of 5000000
+ 206145 words of memory out of 5000000
  10229 multiletter control sequences out of 15000+600000
  38457 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -621,7 +665,7 @@ Here is how much of TeX's memory you used:
 xmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/
 type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu71.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arph
 ic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu94.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
-Output written on /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf (6 pages, 709915 bytes).
+Output written on /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf (6 pages, 709917 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams

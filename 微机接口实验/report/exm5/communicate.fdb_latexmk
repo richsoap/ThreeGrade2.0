@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1524395282 "communicate.tex" "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf" "communicate" 1524395285
+["pdflatex"] 1524649628 "communicate.tex" "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf" "communicate" 1524649632
   "/etc/texmf/web2c/texmf.cnf" 1522218669 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.aux" 1524395282 2378 6d8d419a79543d237e921d3c0bc39348 ""
+  "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.aux" 1524649629 2382 e07721d90ae6a4e1078db51b96fafa76 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -193,14 +193,14 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1522218705 3854767 1b663ba907a3ef171d9866665dd102ca ""
   "cacu.png" 1524392967 22287 34dcaa5b809f3cb7aaafed2366e9cb7c ""
   "code.jpg" 1524388312 134959 2557dc44cbadc8430e92205db41d9979 ""
-  "communicate.aux" 1524395282 2378 6d8d419a79543d237e921d3c0bc39348 ""
-  "communicate.tex" 1524395277 8529 97eb53f76e196387fe376da808d75027 ""
+  "communicate.aux" 1524649629 2382 e07721d90ae6a4e1078db51b96fafa76 ""
+  "communicate.tex" 1524649624 8617 cf1b05199006716c3b2e9760dff50c2d ""
   "display.jpg" 1524393081 52063 0e786b93d6b2de29e742a709eddfd9f3 ""
   "frequency.jpg" 1524388306 128604 995a4e369b976afb409a9accbd834699 ""
   "read.png" 1524393005 21141 6a40546b429e1971af70a8994d2ca235 ""
   (generated)
+  "communicate.log"
+  "communicate.aux"
+  "communicate.pdf"
   "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf"
   "/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.log"
-  "communicate.pdf"
-  "communicate.aux"
-  "communicate.log"

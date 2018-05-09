@@ -183,14 +183,14 @@ INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu5d.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu56.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu6e.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu6a.tfm
+OUTPUT /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu51.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu89.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu5b.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu6c.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu82.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu6d.tfm
-OUTPUT /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm5/communicate.pdf
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu9a.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu95.tfm
 INPUT /usr/share/texmf/fonts/tfm/arphic/gkaiu/gkaiu7e.tfm
