@@ -77,11 +77,13 @@ C8051F020的SPI控制器可工作在主模式或从模式下，相关控制使�
 使用SPI0CKR设置SPI时钟频率
 $$f=\frac{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}$$
 \subsection{SPI Flash的使用}
+\section{思考题}
+\begin{enumerate}
+  \item 还是保持03FH，但如果写入其他值，就可能会出问题。因为flash只能写入0，不能写入bit1，所以当我们要在同一个位置写两次时，就可能会出问题。
+  \item 可能会得到错误的结果，如果实际数据长度比所需数据长，那只能得到部分bit，如果更短，则会用后续数据补上去。都会影响后续数据的读入。
+\end{enumerate}
+\section{源码}
 
-
-
-
-\end{itemize}
 \end{CJK}
 
 \end{document} % DONE WITH DOCUMENT!

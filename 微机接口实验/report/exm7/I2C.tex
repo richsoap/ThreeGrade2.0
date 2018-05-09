@@ -1,0 +1,75 @@
+\documentclass{article}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+% Remember to fill this section out for each
+% lab write-up.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{CJK}
+\usepackage{listings} % For source code
+\usepackage{float}
+\usepackage{subfig}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+\newcommand{\ifc}{$I^2C$}
+
+\begin{document}  % START THE DOCUMENT!
+
+\begin{CJK}{UTF8}{gkai}
+\title{实验七 \ifc总线}
+\author{杨庆龙 \\1500012956}
+\date{2018.5.9}
+\maketitle
+
+\section{实验目的}
+\begin{enumerate}
+  \item 了解\ifc总线的基本原理
+  \item 掌握使用C8051F020作为主设备进行\ifc通信的方法
+  \item 了解时钟芯片DS1307的使用方法
+\end{enumerate}
+
+\section{实验原理}
+\subsection{\ifc总线的基本原理}
+\subsubsection{物理结构}
+\ifc的总线标准有两条信号，其中SDA为双向数据信号，SCL为双向时钟信号。
+数据信号只在时钟信号为低时变化，在时钟上升沿采样。控制信号在时钟信号的为高时变化，下降沿表示起始位，上升沿表示停止位。
+\subsubsection{通信模式}
+\ifc数据传输由主设备产生一个起始位开始，如何传递7个地址位，指定操作设备。接下来一位是读写位，0表示写入，1表示读入。接下来由从设备驱动，如果从设备地址与主设备地址相同，从设备将把SDA信号拉低，表示确认传输。
+\subsection{控制寄存器}
+\begin{table}
+  \caption{SMB控制寄存器}
+  \label{pro1_2}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    D7&D6&D5&D4&D3&D2&D1&D0 \\
+    \hline
+    busy&ensmb&sta&sto&si&aa&fte&toe\\
+    \hline
+  \end{tabular}
+\end{table}
+\begin{itemize}
+  \item BUSY:11表示设备忙
+  \item ENSMB:1表示设备激活
+  \item STA:起始位控制，设置为1时，会发送起始位。
+  \item STO:阶数为控制，设置为1时，会发送停止位。
+  \item SI:中断标识
+  \item AA:应答标识
+  \item FTE:定时总线释放
+  \item TOE:更短时间的定时总线释放
+\end{itemize}
+
+SMB0DAT寄存器用于存放即将发送的\ifc数据，软件只有在SI位有效的情况下才能访问这个寄存器。SMB0ADR寄存器用于存放设备的地址
+\section{实验内容}
+\subsection{显示时钟}
+SMB的SDA和SCL与SPI的部分管脚共用，因此需要检测跳线是否接到了偏下的两个接线柱。
+
+
+
+
+
+\end{CJK}
+
+\end{document} % DONE WITH DOCUMENT!
+
+
+\\
+学校里，提供二维码，为需要物品打标签。
+钥匙打码
+可选打码
