@@ -4,7 +4,13 @@
 % lab write-up.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{CJK}
-\usepackage{listings} % For source code
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{listings} % For source cod
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{left=1.7cm,right=1.7cm,top=2.0cm,bottom=2.0cm}
 \usepackage{float}
 \usepackage{subfig}
 % END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
@@ -60,16 +66,159 @@ SMB0DAT寄存器用于存放即将发送的\ifc数据，软件只有在SI位有�
 \subsection{显示时钟}
 SMB的SDA和SCL与SPI的部分管脚共用，因此需要检测跳线是否接到了偏下的两个接线柱。
 
+\section{源码}
 
+\begin{lstlisting}[language=C,numbers=left,numberstyle=\tiny,%frame=shadowbox,
+   rulesepcolor=\color{red!20!green!20!blue!20},
+   keywordstyle=\color{blue!70!black},
+   commentstyle=\color{blue!90!},
+   basicstyle=\ttfamily]
+   #include <C8051F020.h>
+   #include <stdio.h>
+   #include "../../includes/time.h"
+   #include "../../includes/i2c.h"
+   #include "../../includes/communicate.h"
 
+   void smbus_int(void) interrupt 7 {
+     bit FAIL = 0;
+     static unsigned char i;
+     switch(SMB0STA) {
+       case SMB_START:
+       case SMB_RP_START:
+       SMB0DAT = smb_buf[0];
+       STA = 0;
+       i = 0;
+       break;
+       case SMB_MTADDACK:
+       SMB0DAT = smb_buf[1];
+       break;
+       case SMB_MTDBACK:
+       if(i < smb_len) {
+         SMB0DAT = smb_buf[i+2];
+         i ++;
+       }
+       else {
+         result = S_OVER;
+         STO = 1;
+       }
+       break;
+       case SMB_MRADDACK:
+       if(smb_len == 1)
+       AA = 0;
+       else
+       AA = 1;
+       break;
+       case SMB_MRDBACK:
+       if(i < smb_len) {
+         smb_buf[i+1] = SMB0DAT;
+         i ++;
+         AA = 1;
+       }
+       if(i >= smb_len)
+       AA = 0;
+       break;
+       case SMB_MRDBNACK:
+       smb_buf[i+1] = SMB0DAT;
+       STO = 1;
+       AA = 1;
+       result = R_OVER;
+       break;
+       case SMB_MTADDNACK:
+       case SMB_MTDBNACK:
+       case SMB_MTARBLOST:
+       case SMB_MRADDNACK:
+       FAIL = 1;
+       break;
+       default:
+       FAIL = 1;
+     }
+     if(FAIL) {
+       SMB0CN &= -0x40;
+       SMB0CN |= 0x40;
+       STA = 0;
+       STO = 0;
+       AA = 0;
+       result = SMB_FAIL;
+       FAIL = 0;
+     }
+     SI = 0;
+   }
 
+   void main() {
+     int i;
+     int counter;
+     int flag;
+     unsigned char value;
+     unsigned char c;
+     WDTCN = 0xDE;
+     WDTCN = 0xAD;
+     sysclk_init();
+     i2c_port_init();
+     uart0_init();
+     TI0 = 1;
+     i2c_init();
+     SI = 0;
+     EIE1 |= 0x02;
+     EA = 1;
+       printf("start!\r\n");
+     smb_transmit(0,0);
+     smb_receive(1);
+     if (smb_buf[1] & 0x80) {
+       unsigned char b = smb_buf[1];
+       smb_buf[2] = b & 0x7F;
+       smb_transmit(0,1);
+     }
+   	 i = 0;
+   	 counter = 0;
+     while(1) {
+     	c = getchar();
+   		switch(c) {
+   			case 'y':
+   			scanf("%02bx",smb_buf + 2);
+   			    smb_transmit(6,1);
+   			break;
+   			case 'M':
+   			scanf("%02bx",smb_buf + 2);
+   			    smb_transmit(5,1);
+   			break;
+   			case 'd':
+   			scanf("%02bx",smb_buf + 2);
+   			    smb_transmit(4,1);
+   			break;
+   			case 'h':
+   			scanf("%02bx",smb_buf + 2);
+   			    smb_transmit(2,1);
+   			break;
+   			case 'm':
+   			scanf("%02bx",smb_buf + 2);
+   			    smb_transmit(1,1);
+   			break;
+   			case 's':
+   			scanf("%02bx",smb_buf + 2);
+   			    smb_transmit(0,1);
+   			break;
+   			case 'p': flag = 1;
+   		}
+   		if(flag)
+   		break;
+     }
+     while(1) {
+       smb_transmit(0,0);
+       smb_receive(8);
+       delay(100);
+   	printf("%02bx-",smb_buf[7]);
+       printf("%02bx-",smb_buf[6]);
+       printf("%02bx ",smb_buf[5]);
+       //printf("%d%d:",smb_buf[5] >> 12,(smb_buf[5] >> 8) & 0xf);
+       printf("%02bx:",smb_buf[3]);
+       printf("%02bx:",smb_buf[2]);
+       printf("%02bx",smb_buf[1] & 0x7f);
+   	printf("\r\n");
+     }
+   }
+
+\end{lstlisting}
 
 \end{CJK}
 
 \end{document} % DONE WITH DOCUMENT!
-
-
-\\
-学校里，提供二维码，为需要物品打标签。
-钥匙打码
-可选打码

@@ -1,0 +1,11 @@
+function [ output_args ] = bit2oct( input_args )
+%BIT2OCT trans bit sequence to oct bits, so that we can 8PSK more easily
+inputlength = len(input_args);
+octlength = ceil(inputlength/3);
+buffer = zeros(1,octlength * 3);
+buffer(1:inputlength) = input_args;
+buffer = reshape(buffer,[3,octlength]);
+re
+
+end
+

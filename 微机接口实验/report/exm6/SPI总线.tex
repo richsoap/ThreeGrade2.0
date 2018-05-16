@@ -4,7 +4,13 @@
 % lab write-up.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{CJK}
-\usepackage{listings} % For source code
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{listings} % For source cod
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{left=1.7cm,right=1.7cm,top=2.0cm,bottom=2.0cm}
 \usepackage{float}
 \usepackage{subfig}
 % END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
@@ -83,7 +89,52 @@ $$f=\frac{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}$$
   \item 可能会得到错误的结果，如果实际数据长度比所需数据长，那只能得到部分bit，如果更短，则会用后续数据补上去。都会影响后续数据的读入。
 \end{enumerate}
 \section{源码}
+\begin{lstlisting}[language=C,numbers=left,numberstyle=\tiny,%frame=shadowbox,
+   rulesepcolor=\color{red!20!green!20!blue!20},
+   keywordstyle=\color{blue!70!black},
+   commentstyle=\color{blue!90!},
+   basicstyle=\ttfamily]
+   #include <C8051F020.h>
+   #include <stdio.h>
+   #include "time.h"
+   #include "SPI.h"
+   #include "communicate.h"
 
+   void main() {
+     unsigned char v;
+     unsigned char c;
+     unsigned int addr;
+     unsigned int v1;
+     unsigned int v2;
+     WDTCN = 0xDE;
+     WDTCN = 0xAD;
+     sysclk_init();
+     P6 = 0x80;
+     uart0_init();
+     spi_init();
+     while(1){
+       do {
+         c = getchar();
+       }while((c == '') || (c == '\r') || (c == '\n'));
+       scanf("%lx", &addr);
+       switch(c) {
+         case 'd':
+         ///////////////////////
+         break;
+         case 'w':
+         scanf("%bx", &v1);
+         flash_write(addr,v1);
+         printf("\r\n W %lx %bx OK\r\n",addr,v1);
+         break;
+         case 'c':
+         flash_erease(addr);
+         printf("\r\n C %lx OK\r\n",addr);
+         break;
+       }
+     }
+   }
+
+\end{lstlisting}
 \end{CJK}
 
 \end{document} % DONE WITH DOCUMENT!

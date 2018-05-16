@@ -1,0 +1,77 @@
+\documentclass{article}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+% Remember to fill this section out for each
+% lab write-up.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{CJK}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{listings} % For source cod
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{left=1.7cm,right=1.7cm,top=2.0cm,bottom=2.0cm}
+\usepackage{float}
+\usepackage{subfig}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+\newcommand{\ifc}{$I^2C$}
+
+\begin{document}  % START THE DOCUMENT!
+
+\begin{CJK}{UTF8}{gkai}
+\title{实验八 字符型背光液晶显示屏}
+\author{杨庆龙 \\1500012956}
+\date{2018.5.16}
+\maketitle
+
+\section{实验目的}
+\begin{enumerate}
+  \item 了解字符型液晶显示模块的使用方法
+  \item 掌握并行端口模拟接口时序的方法
+\end{enumerate}
+
+\section{实验原理}
+\subsection{硬件接口}
+\begin{table}
+  \caption{接口定义表格}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    1&2&3&4\\
+    \hline
+    VSS接地&VDD接5V电源&V0是对比度调制&RS寄存器，高电平时选择数据，低电平时选择指令\\
+    \hline
+    &5&6&7-14&15-16\\
+    \hline
+    &高电平读操作，低电平写操作&使能端&双向数据线&空脚\\
+    \hline
+  \end{tabular}
+
+  \begin{enumerate}
+    \item 1:
+    \item 2:
+    \item 3:
+    \item 4:
+    \item 5:
+    \item 6:
+    \item 7-14:
+    \item 15-16:
+
+  \end{enumerate}
+
+\subsection{指令}
+\begin{enumerate}
+  \item 0x38:表示8位地址总线，双行显示
+  \item 0x08:关闭显示
+  \item 0x01:表示清屏
+  \item 0x06:表示右移光标，文字不平移
+  \item 0x0C:打开显示，不显示 光标
+  \item 0x80:设置数据储存器的位置
+  \item 0x02:光标位置复位
+\end{enumerate}
+
+\end{table}
+
+
+\end{CJK}
+
+\end{document} % DONE WITH DOCUMENT!

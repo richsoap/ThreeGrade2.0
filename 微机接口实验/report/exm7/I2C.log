@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  9 MAY 2018 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  16 MAY 2018 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**SPI总线.tex
-(/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex
+**I2C.tex
+(/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -155,8 +155,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen123
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks18
-) (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.aux)
-\openout1 = `SPI总线.aux'.
+) (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.aux)
+\openout1 = `I2C.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -334,267 +334,60 @@ File: c70gkai.fd 2008/10/03 4.8.1
 File: c70gkai.fdx 2012/05/07 4.8.3
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 25.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 58.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:84: Missing delimiter (. inserted).
-<to be read again> 
-                   \begingroup 
-l.84 ...c{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}
-                                                  $$
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
+Overfull \hbox (1.50131pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/10 SMB0DAT\C70/gkai/m/n/10/5b � X \C70/gkai/m/n/10/56 h \C70/gkai/m/n/10/75 ( \C70/gkai/m/n/10/4e � \C70/gkai/m/n/10/5b X \C70/gkai/m/n/10/65 > \C70/gkai/m/n/10/53 s \C70/gkai/m/n/10/5c ^^F \C70/gkai/m/n/10/53 � \C70/gkai/bx/n/10/90 ^^A \C70/gkai/m/n/10/76 �$\OML/cmm/m/it/10 I[]C$\C70/gkai/m/n/10/65 p \C70/gkai/m/n/10/63 n \C70/gkai/m/n/10/ff ^^L \C70/gkai/m/n/10/8f o \C70/gkai/m/n/10/4e � \C70/gkai/m/n/10/53 � \C70/gkai/bx/n/10/67 	 \C70/gkai/m/n/10/57 (\OT1/cmr/m/n/10 SI\C70/gkai/bx/n/10/4f M \C70/gkai/bx/n/10/67 	 \C70/gkai/m/n/10/65 H \C70/gkai/m/n/10/76 � \C70/gkai/m/n/10/60 � \C70/gkai/m/n/10/51 � \C70/gkai/m/n/10/4e  \C70/gkai/m/n/10/62 M \C70/gkai/m/n/10/80 � \C70/gkai/m/n/10/8b � \C70/gkai/m/n/10/95 � \C70/gkai/m/n/10/8f � \C70/gkai/m/n/10/4e * \C70/gkai/m/n/10/5b � X \C70/gkai/m/n/10/56 h \C70/gkai/m/n/10/30 ^^B\OT1/cmr/m/n/10 SMB0ADR\C70/gkai/m/n/10/5b �
+ []
 
+[1
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:84: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...c{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}
-                                                  $$
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:84: Missing delimiter (. inserted).
-<to be read again> 
-                   $
-l.84 ...c{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}
-                                                  $$
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:84: Missing } inserted.
-<inserted text> 
-                }
-l.84 ...c{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}
-                                                  $$
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:84: Display math should end with $$.
-<to be read again> 
-                   }
-l.84 ...c{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}
-                                                  $$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:84: Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.84 ...c{SYSCLK}{2\times\left\(SPI0CKR+1\right\)}
-                                                  $$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:85: Missing $ inserted.
-<inserted text> 
-                $
-l.85 \subsection
-                {SPI Flash的使用}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:85: Missing } inserted.
-<inserted text> 
-                }
-l.85 \subsection
-                {SPI Flash的使用}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:85: Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.85 \subsection
-                {SPI Flash的使用}
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:85: Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.85 \subsection
-                {SPI Flash的使用}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) [2
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Incomplete \iffalse; all text was ignored after line 125.
 <inserted text> 
                 \fi 
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Incomplete \iffalse; all text was ignored after line 125.
 <inserted text> 
                 \fi 
-l.119        scanf(
-                   "%lx", &addr);
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}SPI\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.119        scanf(
-                   "%lx", &addr);
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}SPI\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.119        scanf(
-                   "%lx", &addr);
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}SPI\global \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.119        scanf(
-                   "%lx", &addr);
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
-<inserted text> 
-                \fi 
-l.119        scanf(
-                   "%lx", &addr);
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
-<inserted text> 
-                \fi 
-l.119        scanf(
-                   "%lx", &addr);
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}SPI Flas\ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.119        scanf(
-                   "%lx", &addr);
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}SPI Flas\ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.119        scanf(
-                   "%lx", &addr);
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-Runaway text?
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}SPI Flas\ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
-<inserted text> 
-                }
-l.119        scanf(
-                   "%lx", &addr);
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
-<inserted text> 
-                \fi 
-l.119        scanf(
-                   "%lx", &addr);
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
-<inserted text> 
-                \fi 
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {3}\global \let 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -602,11 +395,11 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {3}\global \let \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -614,41 +407,95 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {3}\global \let \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Incomplete \iffalse; all text was ignored after line 125.
 <inserted text> 
                 \fi 
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Incomplete \iffalse; all text was ignored after line 119.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Incomplete \iffalse; all text was ignored after line 125.
 <inserted text> 
                 \fi 
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.125        break;
+                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.125        break;
+                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.125        break;
+                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Incomplete \iffalse; all text was ignored after line 125.
+<inserted text> 
+                \fi 
+l.125        break;
+                   
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Incomplete \iffalse; all text was ignored after line 125.
+<inserted text> 
+                \fi 
+l.125        break;
+                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {4}\global \let 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -656,11 +503,11 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {4}\global \let \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
@@ -668,64 +515,33 @@ you'd better type `E' or `X' now and fix your file.
 
 Runaway text?
 \@writefile{toc}{\contentsline {section}{\numberline {4}\global \let \ETC.
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:119: Forbidden control sequence found while scanning text of \write.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.tex:125: Forbidden control sequence found while scanning text of \write.
 <inserted text> 
                 }
-l.119        scanf(
-                   "%lx", &addr);
+l.125        break;
+                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
 I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
-]
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:138: LaTeX Error: \begin{itemize} on input line 35 ended by \end{CJK}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \end{CJK}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.tex:140: LaTeX Error: \begin{CJK} on input line 21 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 \end{document}
-                     % DONE WITH DOCUMENT!
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[3] (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.aux) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 21 (\begingroup)
-### bottom level 
+] [3] [4] (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.aux) ) 
 Here is how much of TeX's memory you used:
- 6648 strings out of 493029
- 94708 string characters out of 6136234
- 199406 words of memory out of 5000000
- 10056 multiletter control sequences out of 15000+600000
- 32075 words of font info for 115 fonts, out of 8000000 for 9000
+ 6708 strings out of 493029
+ 95307 string characters out of 6136234
+ 204648 words of memory out of 5000000
+ 10120 multiletter control sequences out of 15000+600000
+ 32336 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,51p,259b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu30.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></
-usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/
-texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/font
-s/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu83.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu94.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
-Output written on /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm6/SPI总线.pdf (3 pages, 327407 bytes).
+ 44i,8n,51p,333b,1796s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu30.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></u
+sr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/t
+exmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts
+/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu94.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
+Output written on /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm7/I2C.pdf (4 pages, 319961 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 287 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
