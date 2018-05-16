@@ -32,29 +32,15 @@
 
 \section{实验原理}
 \subsection{硬件接口}
-\begin{table}
-  \caption{接口定义表格}
-  \begin{tabular}{|c|c|c|c|}
-    \hline
-    1&2&3&4\\
-    \hline
-    VSS接地&VDD接5V电源&V0是对比度调制&RS寄存器，高电平时选择数据，低电平时选择指令\\
-    \hline
-    &5&6&7-14&15-16\\
-    \hline
-    &高电平读操作，低电平写操作&使能端&双向数据线&空脚\\
-    \hline
-  \end{tabular}
-
   \begin{enumerate}
-    \item 1:
-    \item 2:
-    \item 3:
-    \item 4:
-    \item 5:
-    \item 6:
-    \item 7-14:
-    \item 15-16:
+    \item 1:VSS接地
+    \item 2:VDD接5V电源
+    \item 3:V0用于对比度调节
+    \item 4:RS寄存器，高电平时选择数据，低电平时选择指令
+    \item 5:RW寄存器，高电平为读操作，低电平为写操作
+    \item 6:使能端
+    \item 7-14:双向数据线
+    \item 15-16:空引脚
 
   \end{enumerate}
 
