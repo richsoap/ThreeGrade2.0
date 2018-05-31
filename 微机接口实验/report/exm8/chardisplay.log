@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  16 MAY 2018 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  23 MAY 2018 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -339,47 +339,413 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:43: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.43     &5&6&7-14&
-                   15-16\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:58: Extra }, or forgotten \endgroup.
+\sf@endfloatbox ...gefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.58 \end{table}
+                
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:45: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.45 ...电平写操作&使能端&双向数据线&
-                                                  空脚\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:58: Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.58 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.aux) ) 
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:58: LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:58: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.58 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:60: Undefined control sequence.
+\CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
+                                                  \fi 
+l.60 \section{源码}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no � in font cmbx12!
+Missing character: There is no � in font cmbx12!
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:60: Undefined control sequence.
+\CJK@XXX ...endcsname {`#2}{`#3}\CJK@ignorespaces 
+                                                  \fi 
+l.60 \section{源码}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {1}\global \let 
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {1}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {1}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {2}\global \let 
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {2}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {2}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Incomplete \iffalse; all text was ignored after line 74.
+<inserted text> 
+                \fi 
+l.74    #d
+          efine CACU_ERROR 1
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\global \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:74: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.74    #d
+          efine CACU_ERROR 1
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+]
+Overfull \hbox (11.64314pt too wide) in paragraph at lines 113--114
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (200.64278pt too wide) in paragraph at lines 116--117
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (200.64278pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (200.64278pt too wide) in paragraph at lines 120--121
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[2
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:122: Incomplete \iffalse; all text was ignored after line 122.
+<inserted text> 
+                \fi 
+l.122    					case 
+                   4:numbuf[numindex - 2] = numbuf[numindex - 2] / numbuf[nu...
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:122: Incomplete \iffalse; all text was ignored after line 122.
+<inserted text> 
+                \fi 
+l.122    					case 
+                   4:numbuf[numindex - 2] = numbuf[numindex - 2] / numbuf[nu...
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {3}\global \let 
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:122: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.122    					case 
+                   4:numbuf[numindex - 2] = numbuf[numindex - 2] / numbuf[nu...
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {3}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:122: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.122    					case 
+                   4:numbuf[numindex - 2] = numbuf[numindex - 2] / numbuf[nu...
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway text?
+\@writefile{toc}{\contentsline {section}{\numberline {3}\global \let \ETC.
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:122: Forbidden control sequence found while scanning text of \write.
+<inserted text> 
+                }
+l.122    					case 
+                   4:numbuf[numindex - 2] = numbuf[numindex - 2] / numbuf[nu...
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+]
+Overfull \hbox (200.64278pt too wide) in paragraph at lines 122--123
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[3] [4]
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:254: LaTeX Error: \begin{document} ended by \end{CJK}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 \end{CJK}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.tex:254: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.254 \end{CJK}
+               
+Things are pretty mixed up, but I think the worst is over.
+
+[5] (/home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.aux) ) 
 Here is how much of TeX's memory you used:
- 6051 strings out of 493029
- 87462 string characters out of 6136234
- 162026 words of memory out of 5000000
- 9483 multiletter control sequences out of 15000+600000
- 25966 words of font info for 92 fonts, out of 8000000 for 9000
+ 6557 strings out of 493029
+ 92468 string characters out of 6136234
+ 209264 words of memory out of 5000000
+ 9982 multiletter control sequences out of 15000+600000
+ 26130 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,42p,261b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/a
-rphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkai
-u/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
-Output written on /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.pdf (2 pages, 176960 bytes).
+ 44i,6n,51p,261b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b
+.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu64.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr
+/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu82.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb></usr/share/tex
+mf/fonts/type1/arphic/gkaiu/gkaiuff.pfb>
+Output written on /home/richsoap/Workspaces/ThreeGrade2.0/微机接口实验/report/exm8/chardisplay.pdf (5 pages, 210389 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

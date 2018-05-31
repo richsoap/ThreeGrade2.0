@@ -57,7 +57,200 @@
 
 \end{table}
 
+\section{源码}
 
+\begin{lstlisting}[language=C,numbers=left,numberstyle=\tiny,%frame=shadowbox,
+   rulesepcolor=\color{red!20!green!20!blue!20},
+   keywordstyle=\color{blue!70!black},
+   commentstyle=\color{blue!90!},
+   basicstyle=\ttfamily]
+   #include <C8051F020.h>
+   #include "../../includes/charlcd.h"
+   #include "../../includes/time.h"
+   #include "../../includes/keyboard.h"
+   #include "../../includes/storage.h"
+   #define STATE_PUTIN 0
+   #define STATE_DONE 1
+   #define CACU_ERROR 1
+   #define CACU_OK 0
+
+   unsigned char upbuffer[32];
+   unsigned char upcount;
+   unsigned char downbuffer[16];
+   unsigned char downcount;
+   unsigned char numbuf[16];
+   unsigned char cacubuf[16];
+   unsigned char numindex;
+   unsigned char cacuindex;
+   unsigned char level[] = {0,1,1,2,2};
+   void add(unsigned char putin, unsigned char up) {
+   	unsigned char temp;
+   	switch(putin) {
+   	case 'E':temp = 0x45;
+   	break;
+   	case 'R':temp = 0x52;
+   	break;
+   	case 'O':temp = 0x4f;
+   	break;
+   	case 0x0C:temp = 0x2B;
+   	break;
+   	case 0x0D:temp = 0x2D;
+   	break;
+   	case 0x0E:temp = 0x2A;
+   	break;
+   	case 0x0F:temp = 0x2F;
+   	break;
+   	default: temp = putin + 0x30;
+   	}
+   	temp = temp;
+   	if(up == 1)
+   		upbuffer[upcount ++] = temp;
+   	else
+   		downbuffer[downcount ++] = temp;
+   }
+   unsigned char pop() {
+   	while(cacuindex > 1) {
+   		if(level[cacubuf[cacuindex - 1]] >= level[cacubuf[cacuindex - 2]]) {
+   			if(numindex > 1) {
+   				switch(cacubuf[cacuindex-1]) {
+   					case 1:numbuf[numindex - 2] = numbuf[numindex - 2] + numbuf[numindex - 1];
+   					break;
+   					case 2:numbuf[numindex - 2] = numbuf[numindex - 2] - numbuf[numindex - 1];
+   					break;
+   					case 3:numbuf[numindex - 2] = numbuf[numindex - 2] * numbuf[numindex - 1];
+   					break;
+   					case 4:numbuf[numindex - 2] = numbuf[numindex - 2] / numbuf[numindex - 1];
+   					break;
+   				}
+   				numindex --;
+   				cacuindex --;
+   			}
+   			else
+   				return CACU_ERROR;
+   		}
+   	}
+   	return CACU_OK;
+   }
+   void cacu() {
+   	unsigned char i;
+   	unsigned char tempnum = 0;
+   	unsigned char result;
+   	numindex = 0;
+   	cacuindex = 1;
+   	cacubuf[0] = 0;
+   	for(i = 0;i < upcount;i ++) {
+   		if(upbuffer[i] >= 0x30 && upbuffer[i] <= 0x39) {
+   			tempnum *= 10;
+   			tempnum = upbuffer[i] - 0x30 + tempnum;
+   		}
+   		else {
+   			switch(upbuffer[i]) {
+   			case 0x2B:numbuf[numindex++] = tempnum;
+   			result = pop();
+   			cacubuf[cacuindex++] = 1;
+   			break;
+   			case 0x2D:numbuf[numindex++] = tempnum;
+   			result = pop();
+   			cacubuf[cacuindex++] = 2;
+   			break;
+   			case 0x2A:numbuf[numindex++] = tempnum;
+   			cacubuf[cacuindex++] = 3;
+   			break;
+   			case 0x2F:numbuf[numindex++] = tempnum;
+   			cacubuf[cacuindex++] = 4;
+   			}
+   			tempnum = 0;
+   		}
+   	}
+   	numbuf[numindex++] = tempnum;
+   	result = pop();
+   	if(result == CACU_ERROR) {
+   		add('E',0);
+   		add('R',0);
+   		add('R',0);
+   		add('O',0);
+   		add('R',0);
+   	}
+   	else {
+   		numindex = 1;
+   		do {
+   			numbuf[numindex ++] = numbuf[0] % 10;
+   			numbuf[0] /= 10;
+   		}while(numbuf[0] != 0);
+   		numindex --;
+   		while(numindex > 0) {
+   			add(numbuf[numindex --],0);
+   		}
+   	}
+   }
+
+
+   void main(void) {
+   	unsigned char nowkey;
+   	unsigned char prekey;
+   	unsigned char state;
+   	unsigned char i;
+   	unsigned char startpos;
+   	unsigned char count;
+   	WDTCN = 0xDE;
+   	WDTCN = 0xAD;
+   	sysclk_init();
+   	P74OUT = 0x33;
+   	lcd_init();
+   	upcount = 0x00;
+   	downcount = 0;
+   	prekey = NOKEY;
+   	state = STATE_PUTIN;
+   	count = 0;
+   	while(1) {
+   		nowkey = getKey();
+   		//count ++;
+   		count %= 10;
+   		if(nowkey != NOKEY && nowkey != prekey) {
+   			if(state == STATE_DONE) {
+   				upcount = 0;
+   				downcount = 0;
+   				cacubuf[0] = 0;
+   				lcd_init();
+   				state = STATE_PUTIN;
+   			}
+   			else {
+   				if(nowkey == 0x0A){
+   					state = STATE_DONE;
+   					cacu();
+   				}
+   				else if(nowkey == 0x0B) {
+   					upcount = 0;
+   					downcount = 0;
+   					cacubuf[0] = 0;
+   					lcd_init();
+   				}
+   				else
+   					add(nowkey,1);
+   			}
+   		}
+   	 	prekey = nowkey;
+   	////////////display
+   	if(count == 0){
+   	if(upcount < 16)
+   	startpos = 0;
+   	else
+   	startpos = upcount - 16;
+   	lcd_write_command(0x80);
+   	for(i = 0;i < upcount - startpos;i ++)
+   		lcd_write_data(upbuffer[i + startpos]);
+   	if(startpos < 16)
+   	startpos = 0;
+   	else
+   	startpos = downcount - 16;
+   	lcd_write_command(0xC0);
+   	for(i = 0;i < downcount - startpos;i ++)
+   		lcd_write_data(downbuffer[i + startpos]);
+   	}
+   	}
+
+   }
+\end{lstlisting}
 \end{CJK}
 
 \end{document} % DONE WITH DOCUMENT!
