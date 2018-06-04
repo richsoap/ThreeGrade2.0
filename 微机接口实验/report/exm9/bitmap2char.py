@@ -1,4 +1,4 @@
-inputfilename=''
+inputfilename='./'
 
 with open(inputfilename,'r') as inf:
     with open(inputfilename + '.char','w') as outf:
