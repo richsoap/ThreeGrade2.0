@@ -1,0 +1,559 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.28)  18 JUN 2018 11:08
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**report.tex
+(/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/report.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/share/texmf/tex/latex/CJK/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+ (/usr/share/texmf/tex/latex/CJK/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+) (/usr/share/texmf/tex/latex/CJK/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box26
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box27
+\@float@everytoks=\toks16
+\@floatcapt=\box28
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count89
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count90
+\sf@farskip=\skip43
+\sf@captopadj=\dimen112
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count91
+\c@subfigure@save=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@subtable@save=\count95
+\c@lotdepth=\count96
+\sf@top=\skip46
+\sf@bottom=\skip47
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
+\Gm@bindingoffset=\dimen113
+\Gm@wd@mp=\dimen114
+\Gm@odd@mp=\dimen115
+\Gm@even@mp=\dimen116
+\Gm@layoutwidth=\dimen117
+\Gm@layoutheight=\dimen118
+\Gm@layouthoffset=\dimen119
+\Gm@layoutvoffset=\dimen120
+\Gm@dimlist=\toks17
+)
+
+LaTeX Warning: Unused global option(s):
+    [UTF8].
+
+(/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/report.aux
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+
+LaTeX Warning: Label `blocks' multiply defined.
+
+)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen121
+\scratchbox=\box29
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen122
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks19
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(48.36958pt, 517.55583pt, 48.36958pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=517.55583pt
+* \textheight=681.15898pt
+* \oddsidemargin=-23.9004pt
+* \evensidemargin=-23.9004pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+) (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+LaTeX Font Info:    Try loading font information for C70+gkai on input line 14.
+ (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fd
+File: c70gkai.fd 2008/10/03 4.8.1
+) (/usr/share/texmf/tex/latex/CJK/UTF8/c70gkai.fdx
+File: c70gkai.fdx 2012/05/07 4.8.3
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+Package epstopdf Info: Source file: <block.eps>
+(epstopdf)                    date: 2018-06-13 10:12:47
+(epstopdf)                    size: 27101 bytes
+(epstopdf)             Output file: <block-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 11:38:54
+(epstopdf)                    size: 72115 bytes
+(epstopdf)             Command: <repstopdf --outfile=block-eps-converted-to.pdf block.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+ <block-eps-converted-to.pdf, id=1, 381.425pt x 546.04pt>
+File: block-eps-converted-to.pdf Graphic file (type pdf)
+ <use block-eps-converted-to.pdf>
+Package pdftex.def Info: block-eps-converted-to.pdf used on input line 20.
+(pdftex.def)             Requested size: 190.71202pt x 273.01933pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 31.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/block-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <mor.eps>
+(epstopdf)                    date: 2018-06-13 09:58:43
+(epstopdf)                    size: 21013 bytes
+(epstopdf)             Output file: <mor-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 11:38:54
+(epstopdf)                    size: 17841 bytes
+(epstopdf)             Command: <repstopdf --outfile=mor-eps-converted-to.pdf mor.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+ <mor-eps-converted-to.pdf, id=261, 1174.3875pt x 385.44pt>
+File: mor-eps-converted-to.pdf Graphic file (type pdf)
+ <use mor-eps-converted-to.pdf>
+Package pdftex.def Info: mor-eps-converted-to.pdf used on input line 39.
+(pdftex.def)             Requested size: 258.77791pt x 84.93233pt.
+Package epstopdf Info: Source file: <pulse.eps>
+(epstopdf)                    date: 2018-06-13 09:58:19
+(epstopdf)                    size: 20307 bytes
+(epstopdf)             Output file: <pulse-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 11:38:54
+(epstopdf)                    size: 13871 bytes
+(epstopdf)             Command: <repstopdf --outfile=pulse-eps-converted-to.pdf pulse.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+ <pulse-eps-converted-to.pdf, id=262, 1290.8225pt x 410.53375pt>
+File: pulse-eps-converted-to.pdf Graphic file (type pdf)
+ <use pulse-eps-converted-to.pdf>
+Package pdftex.def Info: pulse-eps-converted-to.pdf used on input line 40.
+(pdftex.def)             Requested size: 258.77791pt x 82.29948pt.
+Package epstopdf Info: Source file: <stars.eps>
+(epstopdf)                    date: 2018-06-18 10:29:15
+(epstopdf)                    size: 135377 bytes
+(epstopdf)             Output file: <stars-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-18 11:08:52
+(epstopdf)                    size: 36467 bytes
+(epstopdf)             Command: <repstopdf --outfile=stars-eps-converted-to.pdf stars.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+ <stars-eps-converted-to.pdf, id=263, 550.055pt x 420.57124pt>
+File: stars-eps-converted-to.pdf Graphic file (type pdf)
+ <use stars-eps-converted-to.pdf>
+Package pdftex.def Info: stars-eps-converted-to.pdf used on input line 58.
+(pdftex.def)             Requested size: 275.02682pt x 210.28511pt.
+ [2 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/mor-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/pulse-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot1.eps>
+(epstopdf)                    date: 2018-06-13 13:41:12
+(epstopdf)                    size: 34716 bytes
+(epstopdf)             Output file: <plot1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:15
+(epstopdf)                    size: 7715 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot1-eps-converted-to.pdf plot1.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+
+<plot1-eps-converted-to.pdf, id=291, 621.32124pt x 316.18124pt>
+File: plot1-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot1-eps-converted-to.pdf>
+Package pdftex.def Info: plot1-eps-converted-to.pdf used on input line 72.
+(pdftex.def)             Requested size: 434.9219pt x 221.32535pt.
+ [3 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/stars-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot2.eps>
+(epstopdf)                    date: 2018-06-13 13:40:56
+(epstopdf)                    size: 68646 bytes
+(epstopdf)             Output file: <plot2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:16
+(epstopdf)                    size: 16370 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot2-eps-converted-to.pdf plot2.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+ <plot2-eps-converted-to.pdf, id=301, 609.27625pt x 316.18124pt>
+File: plot2-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot2-eps-converted-to.pdf>
+Package pdftex.def Info: plot2-eps-converted-to.pdf used on input line 80.
+(pdftex.def)             Requested size: 426.49046pt x 221.32535pt.
+Package epstopdf Info: Source file: <plot3.eps>
+(epstopdf)                    date: 2018-06-13 13:40:38
+(epstopdf)                    size: 428649 bytes
+(epstopdf)             Output file: <plot3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:16
+(epstopdf)                    size: 73476 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot3-eps-converted-to.pdf plot3.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+ <plot3-eps-converted-to.pdf, id=302, 669.50125pt x 316.18124pt>
+File: plot3-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot3-eps-converted-to.pdf>
+Package pdftex.def Info: plot3-eps-converted-to.pdf used on input line 88.
+(pdftex.def)             Requested size: 468.64769pt x 221.32535pt.
+ [4 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot1-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot4.eps>
+(epstopdf)                    date: 2018-06-13 13:40:24
+(epstopdf)                    size: 429815 bytes
+(epstopdf)             Output file: <plot4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:17
+(epstopdf)                    size: 91846 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot4-eps-converted-to.pdf plot4.eps>
+(epstopdf)             \includegraphics on input line 96.
+Package epstopdf Info: Output file is already uptodate.
+ <plot4-eps-converted-to.pdf, id=317, 604.2575pt x 316.18124pt>
+File: plot4-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot4-eps-converted-to.pdf>
+Package pdftex.def Info: plot4-eps-converted-to.pdf used on input line 96.
+(pdftex.def)             Requested size: 422.97737pt x 221.32535pt.
+Package epstopdf Info: Source file: <plot5.eps>
+(epstopdf)                    date: 2018-06-13 13:40:08
+(epstopdf)                    size: 869077 bytes
+(epstopdf)             Output file: <plot5-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:17
+(epstopdf)                    size: 182606 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot5-eps-converted-to.pdf plot5.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+ <plot5-eps-converted-to.pdf, id=318, 607.26875pt x 316.18124pt>
+File: plot5-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot5-eps-converted-to.pdf>
+Package pdftex.def Info: plot5-eps-converted-to.pdf used on input line 104.
+(pdftex.def)             Requested size: 425.08524pt x 221.32535pt.
+ [5 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot3-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot4-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot6.eps>
+(epstopdf)                    date: 2018-06-13 13:40:00
+(epstopdf)                    size: 1305407 bytes
+(epstopdf)             Output file: <plot6-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:18
+(epstopdf)                    size: 278496 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot6-eps-converted-to.pdf plot6.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+ <plot6-eps-converted-to.pdf, id=334, 634.37pt x 316.18124pt>
+File: plot6-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot6-eps-converted-to.pdf>
+Package pdftex.def Info: plot6-eps-converted-to.pdf used on input line 112.
+(pdftex.def)             Requested size: 444.05597pt x 221.32535pt.
+Package epstopdf Info: Source file: <plot7.eps>
+(epstopdf)                    date: 2018-06-18 10:40:25
+(epstopdf)                    size: 32162 bytes
+(epstopdf)             Output file: <plot7-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-18 11:08:52
+(epstopdf)                    size: 30534 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot7-eps-converted-to.pdf plot7.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+ <plot7-eps-converted-to.pdf, id=335, 586.19pt x 316.18124pt>
+File: plot7-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot7-eps-converted-to.pdf>
+Package pdftex.def Info: plot7-eps-converted-to.pdf used on input line 120.
+(pdftex.def)             Requested size: 410.3302pt x 221.32535pt.
+ [6 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot5-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot6-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <plot9.eps>
+(epstopdf)                    date: 2018-06-12 23:04:55
+(epstopdf)                    size: 96697 bytes
+(epstopdf)             Output file: <plot9-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-13 13:47:19
+(epstopdf)                    size: 22667 bytes
+(epstopdf)             Command: <repstopdf --outfile=plot9-eps-converted-to.pdf plot9.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+ <plot9-eps-converted-to.pdf, id=350, 651.43375pt x 316.18124pt>
+File: plot9-eps-converted-to.pdf Graphic file (type pdf)
+ <use plot9-eps-converted-to.pdf>
+Package pdftex.def Info: plot9-eps-converted-to.pdf used on input line 128.
+(pdftex.def)             Requested size: 456.0005pt x 221.32535pt.
+Package epstopdf Info: Source file: <bier.eps>
+(epstopdf)                    date: 2018-06-18 01:54:45
+(epstopdf)                    size: 96674 bytes
+(epstopdf)             Output file: <bier-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-18 11:08:52
+(epstopdf)                    size: 29530 bytes
+(epstopdf)             Command: <repstopdf --outfile=bier-eps-converted-to.pdf bier.eps>
+(epstopdf)             \includegraphics on input line 136.
+Package epstopdf Info: Output file is already uptodate.
+ <bier-eps-converted-to.pdf, id=351, 605.26125pt x 339.2675pt>
+File: bier-eps-converted-to.pdf Graphic file (type pdf)
+ <use bier-eps-converted-to.pdf>
+Package pdftex.def Info: bier-eps-converted-to.pdf used on input line 136.
+(pdftex.def)             Requested size: 423.67998pt x 237.48563pt.
+ [7 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot7-eps-converted-to.pdf> </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/plot9-eps-converted-to.pdf>] [8 </home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/bier-eps-converted-to.pdf>]
+(/home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4820 strings out of 493029
+ 73137 string characters out of 6136234
+ 138397 words of memory out of 5000000
+ 8238 multiletter control sequences out of 15000+600000
+ 40139 words of font info for 143 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,10n,52p,598b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu4f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu50.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu51.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu52.pfb>
+</usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu53.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu54.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu56.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu57.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu58.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu59.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu5f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu60.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu62.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu63.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu65.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu66.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu67.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu68.pfb></usr/shar
+e/texmf/fonts/type1/arphic/gkaiu/gkaiu6a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu6f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu70.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu71.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu72.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu73.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu74.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu75.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu76.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu77.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu78.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu79.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7b.pfb></usr/share/texmf/fo
+nts/type1/arphic/gkaiu/gkaiu7c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7e.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu7f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu80.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu81.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu86.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu88.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu89.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8b.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8c.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8d.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu8f.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu90.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu91.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu95.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu96.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu97.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu98.pfb></usr/share/texmf/fonts/type1/
+arphic/gkaiu/gkaiu9a.pfb></usr/share/texmf/fonts/type1/arphic/gkaiu/gkaiu9f.pfb>
+Output written on /home/richsoap/Workspaces/ThreeGrade2.0/Digital_Signal_Process/report/pro2/report.pdf (8 pages, 1249640 bytes).
+PDF statistics:
+ 595 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

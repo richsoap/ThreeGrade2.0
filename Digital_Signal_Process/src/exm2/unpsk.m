@@ -1,4 +1,4 @@
-function [ outputdata ] = unpsk( inputdata, outputlength, fre)
+function [ outputdata ] = unpsk( inputdata, outputlength, fre, showfig)
 %UNPSK trans time wave to oct data
 %   此处显示详细说明
 target = [[1,0];[sqrt(2)/2,sqrt(2)/2];[0,1];[-sqrt(2)/2,sqrt(2)/2];[-1,0];[-sqrt(2)/2,-sqrt(2)/2];[0,-1];[sqrt(2)/2,-sqrt(2)/2]];
@@ -18,11 +18,12 @@ for i = 1:8
     result(indexs) = i-1;
     result_dis(indexs) = dics(indexs);
 end
-figure
-plot(sindata, cosdata, '*')
 outputdata = result;
 %outputdata = transtable(asindata(index), acosdata(index));    
-
+if showfig == 1
+    figure
+    plot(sindata, cosdata, '*')
+end
 
 end
 
